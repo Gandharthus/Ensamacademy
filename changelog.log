@@ -1,0 +1,3147 @@
+* cd403851 : 4.01
+* f7e514a3 : elementor version
+* 1b113599 : updated translations
+* 641d79ce : welcome page
+* 329b3156 : fixes
+* efb70754 : git ignore
+* 469b8412 : updated screenshot
+* e8cd5454 : default header
+* 40764387 : pmpro connect class exists check
+* 6338f965 : changes
+* 8127dbcc : 4.0
+* 36bbf050 : version 4
+* c9a35e63 : profile template
+* c1d02f70 : plugins
+* 1b4a5cc6 : blank course template
+* d27c9ae8 : header changes for 4.0
+* 357b7cc9 : v4 changes
+* 6ea99f55 : remove search in barebones
+* dcb6616c : default filters
+* b94e9e15 : do not return logo url if logo not set
+* b08e7dc7 : welcome changes
+* 0ff53cbd : http to https
+* 31601ab2 : 3.9.9
+* 837261a0 : new query including course status in stats page order by
+* 1ff38d72 : fix for quiz passing score in react quizzes
+* 51f37159 : single event page not working fix
+* 01d80c7e : permanant class check hide logged in dropdown and notes and discussion error fix
+* 880afca4 : wp-admin issue with dark theme
+* 1c7c3620 : 3.9.8.1
+* 7dab28c0 : spelling mistake and width 1410px
+* 4c10edf5 : Profile Activity visibility settings in wplms options not working fix
+* f2d9b42b : removing 'vibe' and adding plugin's own lang domains
+* 2282bd9a : trigger unit load after countdown drip value
+* 93253fd1 : title showing in fullscreen course status page
+* 9da2bb4a : .container 1410px
+* 2005d61b : pmpro dark theme fixes
+* 900d627a : updated wp plugins versions
+* 4340c74e : demo 16 17 demo switcher
+* 92c7f5ff : 3.9.8
+* 3a61e94f : welcome changes
+* 70df8256 : more dark theme fixes pt. 2
+* 9f29ccdc : more dark theme fixes
+* b02992e8 : demo 16 and demo 17 content in setup wizard
+* 63790f1c : demo 17 and dark theme fixes
+* 049b91cc : dark theme fixes
+* 28786363 : ajax login registration showing in bbpress widget fix
+* af86428f : fontawesome extracted outside of theme
+* b6c6ccfc : mooc header style
+* f54fa6cf : Mooc header modified
+* 9f3b0636 : bugs in php 7.1
+* 4aca74f8 : dark changes
+* ed61903a : Dark theme changes
+* 06f9db53 : dark theme customizer settings
+* 9cdcf3cd : dark theme
+* 3f4642b7 : cart template fix woocommerce
+* ed14aff7 : 3.9.7
+* 1e9f9574 : commissions tutorial link
+* 1d907332 : welcome update log link
+* cfeff4b9 : welcome page changes
+* 200c2d06 : react quizzes
+* d93c1fe0 : single activity view restriction settings
+* 2df32f4d : pmpro checkout template issue fix
+* f69e8754 : fatal error fix php 7.2
+* c5152061 : retakes
+* eb615f32 : whatsapp and telegram social links
+* 53077b3a : 3.9.6
+* 88a68702 : welcome changes
+* 59782ac8 : action to show assignment with curriculum
+* a1c4b270 : woocommerce cart template updated
+* 650da859 : profile field description appearing twice in profile edit fix
+* cc017af8 : 3.9.5
+* 30790ef7 : yoast social title fix could not fix social description and image
+* d42a554f : welcome changes
+* 968471b0 : !important removed from .hidden
+* d1258c34 : class on registration form loaded
+* 8a9c6de8 : fix for all corses
+* bc32171f : update log link
+* e7aff4cc : 3.9.4
+* f01e673c : welcome page changes
+* c8ac8871 : widgets data correction
+* 620049e2 : function name changed
+* 62eab150 : json data for default theme
+* 14a65f53 : fix for widgets and sidebars options
+* 462df030 : now json data logic changed for import sidebar settings
+* 2368aacd : class changed for layerlsider
+* 0d9f867d : demo 14 in setup wizard
+* c2a616ad : search page not working syntax error fix
+* 8471e1d4 : demo14 removed
+* a294183d : optimized the plugin active function to check for both function and classes
+* afef261b : is plugin active bug fix
+* 4e477fb6 : 3.9.3.3
+* a15d0cfb : text issues in vibe_sanitizer
+*   4bd934d5 : Merge branches 'develop' and 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| *   aa5717c2 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| |\  
+| * | 4801ffae : Changed seats left to seat left
+* | | d7184db7 : mistake in envato_setup file for tgmpa is_plugin_active function
+| |/  
+|/|   
+* | c6712679 : removed demo 14 and 15
+* | 59721353 : more envato notice fixes
+* | 5933b32e : removed is_plugin_active now check for class_exists or function_exists
+|/  
+* 0a330b82 : sanitized echo $ everywhere in theme
+* daafd1be : shifted  tincan api to vibe course module
+* dd7ffc94 : remove base64 decode
+* 7cafd58a : sanitize callback added
+* 49a04858 : filesystem instead of direct file read
+* 4ae48140 : pmpro template using bloginfo fixed
+* 1927ea01 : alt text added
+*   cbd0e981 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 8fc3285f : 3.9.3.2
+* | a0ef2761 : text domian fixes
+|/  
+* f3bced9d : pmpro templates
+* f7f01861 : fixes for wanrnings in theme check
+* 21c6528d : content width
+* 5c5c9d01 : theme url changed
+* d879d54b : vibe_sanitizer
+* c00d3934 : current user instead of global current_user
+* a4829f33 : function exists for woocommerce check
+* 29876a48 : alt tag in images
+* 2737ca3b : translation fixes
+* d0700c93 : translation fixes
+* c7699942 : wpadminbar css removed
+* 4fdfa41b : empty sidebars should not appear
+* 65611335 : depth parameter
+* 4892f687 : screen fix for gutenberg
+* a27f46ea : 3.9.3.2
+* cc584dbd : demo16 removal
+* b491f692 : base class fix for shortcodes
+* ca473a69 : 3.9.3.1
+* 22c1b8b3 : define theme path include constant
+* 0296ee55 : wrong secs value in countdown fx fix
+* 4f43f337 : notice fix for undefined variable
+* 72bdb2ca : 3.9.3
+* 77bb879d : 3.9.3
+* e69a0392 : removed notificaiton border
+* 7210becf : welcome page changes
+* acc37b68 : demo 16 again
+* 5fd9f9fd : removed edit course and take course from options demo 15
+* c88af871 : elementor import in demo switcher
+* 3abbd1d2 : elementor demo templates in my templates json data
+* 20f94589 : demo 15 content fixes
+* c10c64e9 : yoast meta description on bp directories
+* 299ffa51 : demo 15 and 16
+*   4a871c72 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 095347e7 : fixes for course sidebar block
+| * e2804126 : version update for testing scripts and style changes
+| * eead26cc : gutenberg filter to include scripts in gutenberg
+| * 75884aca : use get_theme_file_path in include
+| * 70e95464 : styling fixes
+| * 65da585f : course5_sideblock fixes
+| * c2170a35 : removed events sidebar
+| * abf6a2e3 : countdown styling
+| * d90ad10a : adhoc fixes in styles
+* | 09c58ca9 : drip feed message fix
+|/  
+* 49f0825d : demo 14 css rtl fixes
+* acdffb46 : 27 years and 9 months fix in case of 9999 days for enrolled students
+* 15be85ea : descrepancy in display of course duration on woocommerce thankyou page
+* cc68f4c4 : $course_retakes should be initialised inside loop otherwise it might take previous values and distort retakes in loop of user courses
+*   835cd59a : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * b78cd0c8 : Error: themes/wplms/members/single/course/stats.php on line 53 set $course_retake as array
+* | 814c0d07 : elementor_templates in default.json
+|/  
+* b2f7052b : unlimited duration fix
+* c5a1af4b : version in wplms child stylesheet as well.
+* 8a96b648 : demo 14 image fallback
+* 1cc1ebee : 3.9.2
+* 0d36aba7 : demo 13 fixes
+* 8ecbca32 : demo 13 one click setup changes
+* e56197b4 : demo 14 upgraded
+* 7ca36555 : woocommerce 3.6.0 template fixes
+* ae479d2e : welcome page changes
+* f8c9e9f2 : remove die
+* 8b9aedf9 : demo 14 image fix after setup wizard
+* d9a488cc : css fix for demo14
+*   64058806 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 26eeab7a : demo 13 setup wizard
+* | b0d01f20 : demo 13 14 demo switcher
+|/  
+* 35527e1f : removed images folder from demo13
+* 43501fde : demo 13 setup
+* 5dcda28b : spelling mistakes for demo 13
+* 60954c01 : demo 14 setup wizard
+* 71f0c5c0 : demo13 and demo 14 thumbnail image added in array of demos also
+*   3db45f19 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| *   68284403 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| |\  
+| * | 9fd59a19 : itemscope is added by woocommerce now , so removing our own
+* | | f0f75c26 : woocommerce bug
+| |/  
+|/|   
+* |   21f49c40 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\ \  
+| * | 1c0ef5a3 : trim missing security on login fix
+| |/  
+| * e7afec09 : do action login on ajax login
+* | 4de54a9d : no message
+|/  
+* 21e5d38c : grid layout for certificate name
+* 526e29b5 : z-index in C6 and C7 layouts
+* ec4fe214 : Export data in user profile - settings
+* 468b3ec4 : Login to start  quiz message for non-logged in users
+* 196eba77 : unlimited access bug fix in case duration is 3 years or more
+* 2769942b : gif size reduced
+* 95b3ef81 : 3.9.1
+* 375c0752 : pdf certificates plugin link
+* 4af91537 : welcome page changes
+* 336943ce : buddydrive file owner check while showing no access to file notice
+* 5de2aae5 : multicurrency image welcome page  change
+* 822c7524 : forgot password link in multisite always links to root site fix
+* a85753ef : welcome page changes
+* 08e994ea : PDF Certificate support
+* 42daaf3e : generic header fix in groups template
+* 5f648ccd : course status and edit course pages fixed in demo 12
+* ae03d12f : customizer fixes demo 12 options.json file
+* f94172fb : demo 12 default .json fixes
+*   20cdfc54 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 616ab222 : removing templates
+| * b63bf2a5 : versions update
+| * 426d8de1 : demo11 sample data cleanup
+| * 5c84ef8b : demo12 data cleanup
+| *   6f01655c : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| |\  
+| | * 847fcc75 : removing images
+| | * 71d11416 : 3.9
+| | * 11014518 : welcome changes
+| | * 41b87a8a : course8 layout styling
+| | * fc3197a3 : quiz, assignment breadcrumbs include course links
+| | * d4801fdf : welcome changes
+| | * 5c75b8b5 : course7 course8 layout in related courses
+| * | 64000144 : removing images from demo 11 and demo 12 folders
+| |/  
+| * 31a3826a : demo 12 setup wizard fixes
+| * 5181885f : updated update log link
+| * a911eab4 : Demo12 home page fix
+| * 30eddc16 : Student Progress in Course STats
+| * 078883ac : RTL changes
+| * c2c4f5c6 : Certificate code in Course stats
+| * 0e52bd35 : multiple search with coauthors fixed
+| * 9c4ef70c : hidden courses showing vibe tabs widget fix
+| * 77feea09 : welcome changes
+| * 32800459 : demo 11 12 added to demo switcher
+| * 85f83171 : home page slug changed for demo 12
+| * 0e07ff12 : switch images added back
+| * bfe14c03 : bp social connect version change to avoid invalid warning
+| * 3144151b : course 8 block customizer color for buttons
+| *   16652b0d : Merge branch 'feature/course8' into develop
+| |\  
+| | * 3c15a24d : changes in scripts
+| | * c376570e : course8 template
+| | * 26937e74 : 4 args passed intead of 3 post comment action
+| | * 52afe018 : demo switcher hardcoded path changed to wp function path
+| | * 3501c369 : 3.8.5
+| | * 403c7a1e : translations updated
+| | * 8dfce933 : welcome page changes
+| | * ce745d04 : course style 7
+| | * 2b962d69 : progress bar default color
+| | * ca3841ea : welcome changes
+| | * ca433d96 : error fix for packaged.php
+| | * 529feba2 : package type support for scrom in packaged start course template
+| | * d22bd339 : filter on reply button in unit
+| | * a238a2bb : show breadcrumbs in single quiz
+| | * b6b708c7 : vibe_get_options to vobe_get_option
+| | * 25995cdc : version and emoty array fix
+| | * 8f86b4ec : PTbr updated
+| | * 741dc365 : 3.8.0.1
+| | * bee6c98d : security bug
+| | * fb88a20b : course 6 layout fixes
+| | * be587530 : bug fix
+| | * b3978979 : removed priduct id mistake on thankyou page .
+| | * 1e7b4529 : error fixes in login templates
+| | * 2a133c42 : course layout 6 minor fixes
+| | * c63e4704 : css cusstomizer fixes for c6 layout
+| | * 31283153 : WP admin link appears in Profile drop down with instructor wp admin access disabled
+| | * bdbf63ae : WP admin link appears in Profile drop down with instructor wp admin access disabled
+| | * 6cda0689 : updating plugin verisons.
+| | * e53654e5 : before title hook for new demo designs
+| | * 409d1727 : minor changes in c6 header.
+| | * 6c78b813 : welcome page
+| | * 8c22dc00 : course cat fixes
+| | * 7fb3c44e : filter on view profile link in login drop
+| | * 041b3caf : id added for course pricing
+| | * 651c0717 : tabs style layout in c6 course layout
+| | * cff68142 : deprecated functions in woocommerce
+| | * 7eaa68c2 : 3.8
+| | * 5a61ed02 : tutorial links
+| | * d8c05825 : customizer changes
+| | * 6958ce6d : customizer settings saved
+| | * 60f42ec6 : course stly 6
+| | * 18dceab1 : before_title hook for demo style
+| | * cbe0e1a2 : fixes
+| | * b83cc2e2 : welcome changes
+| | * bd4526ec : header reload controls
+| | * 0967c0a0 : Hide edit in admin options when instructor access to wp admin is restricted
+| | * 11db77c5 : instructor courses
+| | * 622be5ec : displayed user id for user’s my courses, parent feature
+| | * e6e276d4 : sensor removed from contact page
+| | * 50c49cee : max width set to 1440 customising bootstrap
+| | * a5aea6ec : new course header
+| | * 23981653 : course 6 block item
+| | * 7f7fd783 : header image fix on ie
+| | * 0ca74d93 : new course layout
+| | * 64334bb4 : request URI contstant for PHP 7.2+
+| | * 2dcba719 : ajax header reload
+| | * 1dda4b08 : woocommerce cart template version change
+| | * a140ad3d : suggested rtl css
+| | * dc6eabd5 : emptoy to empty
+| | * 9b30429f : filter to allow course record progress
+| | * e316d382 : header fixes
+| | * 5f911733 : welcome page changes
+| | * 75836a78 : version 3.7
+| | * 9c2ae644 : bundle templates plugin with VC
+| | * 5d70dfdc : small avatar fix
+| | * 93caef0f : general header fix
+| | * 5e757313 : welcome changes
+| | * f095eb25 : option for course search
+| | * ddba7868 : nav search
+| | * f643c1ad : header elements
+| | * 376c3143 : success message in place of ajax error.
+| | * d2c7d384 : change all categories to all
+| | * 9004f08f : app header alternate logo fixes scss
+| | * 8b50266c : alternate logo support in app style header
+| | * 66db400b : warnign fix
+| | * 9d73db94 : Grid based fixes in CSS instructor display
+| | * dacaed41 : XSS vulnerability fix in search
+| | * aef2ec21 : translation update
+| | * 2cd474cb : New update system
+| | * 2c467185 : New update method
+| | * 89fd8450 : member header variations actions
+| | * 5431b751 : grid-based-fixes
+| | * 53344e00 : university header
+| | * b0dba659 : new actions in member header
+| | * c89bf65e : removed deprecated create_function call
+| | * 6cb256e6 : Grid based CSS in search
+| | * a7bcd17e : nav search
+| | * 6342cf98 : signon security ajax
+| | * 8c654e60 : Floats changed from left to start
+| | * e96f8be7 : Customizer set to refresh changes not load
+| | * faa538bb : instructor CSS display updated
+| | * 9588bda7 : Bug fix : missing ID in login page.
+| | * 8f23b04c : Feature : Course Nav search
+| | * fcbfce2a : bug fix to avoid CSS loading on WP admin interface
+| | * a79c9b01 : Security via ajax for cached logins
+| | * cc222c56 : welcome
+| | * ddcbd2be : 3.6
+| | * 7fcb49a8 : background in transparent
+| | * 51bf4660 : group cover image class
+| | * 5258492d : profile class
+| | * 53609aca : welcome changes
+| | * 49f5a003 : added welcome email in welcome page
+| | * 42d38348 : 3.6
+| | * 8ee6545c : woocommerce mini cart fix in header
+| | * 19ffbc4a : woocommerce mini cart fix
+| | * 9e40dacd : woocommerce templates update 3.4.0
+| | * d3200a0a : filter to disable force guest checkout
+| | * 33ddc9fd : demo 10 options panel fixes plus menus
+| | * b55bdc4c : TGMPA updated
+| | * 2ce805d0 : notice fixes
+| | * 2a370424 : default demo content export added
+| | * 2403742f : 3.5.1
+| | * b57bf1d4 : welcome changes
+| | * ca98c2d1 : fitvids fix
+| | * d27078a6 : css changes in the controls
+| | * a86de842 : version update in welcome page
+| | * 7553a5a6 : class.php fix
+| | * a17a4607 : RTL CSS Styling Fix
+| | * 17e2d33b : Demo 10 changes in options.json
+| * | 797f03fe : Elementor edit
+| * | 84c71c7b : demo 11 and 12 images added
+| * | 380b1eed : demo 11 12 data
+| * | f9acf2f6 : Revert "demo 11 and 12 data"
+| * | 278341de : demo 11 and 12 data
+* | | a94c3354 : default login "goto to admin " icon not showing
+|/ /  
+* | adf06dc2 : 4 args passed intead of 3 post comment action
+* | 9051a33d : demo switcher hardcoded path changed to wp function path
+* | f9cfeff8 : 3.8.5
+* | a5abee34 : translations updated
+* | ae9ab7eb : welcome page changes
+* | afd1ef78 : course style 7
+* | 93239963 : progress bar default color
+* | 4d1cba9c : welcome changes
+* | 6b2e3564 : error fix for packaged.php
+* | 1f3059f3 : package type support for scrom in packaged start course template
+* | a1f21ada : filter on reply button in unit
+* | cc7cbdf8 : show breadcrumbs in single quiz
+* | e4ae5df9 : vibe_get_options to vobe_get_option
+* | 31109c98 : version and emoty array fix
+* | d83a826f : PTbr updated
+* | 73549c28 : 3.8.0.1
+* | 1495181c : security bug
+* | 1b67cff0 : course 6 layout fixes
+* | 0da93baa : bug fix
+* | 71cfaa83 : removed priduct id mistake on thankyou page .
+* | d051fabe : error fixes in login templates
+* | 7e4af217 : course layout 6 minor fixes
+* | 874e4ab7 : css cusstomizer fixes for c6 layout
+* | 826e842f : WP admin link appears in Profile drop down with instructor wp admin access disabled
+* | e0519144 : WP admin link appears in Profile drop down with instructor wp admin access disabled
+* | 1e45ddc7 : updating plugin verisons.
+* | 455e17d7 : before title hook for new demo designs
+* | f7fa384f : minor changes in c6 header.
+* | da2a65d4 : welcome page
+* | 27b72c15 : course cat fixes
+* | e2c49199 : filter on view profile link in login drop
+* | 39fa04b3 : id added for course pricing
+* | 28dfeee4 : tabs style layout in c6 course layout
+* | 158a7e17 : deprecated functions in woocommerce
+* | 9f79a39c : 3.8
+* | a823a596 : tutorial links
+* | 49dca628 : customizer changes
+* | eed3b17e : customizer settings saved
+* | 5d578114 : course stly 6
+* | 0911cc41 : before_title hook for demo style
+* | fef65379 : fixes
+* | 3da1c7b8 : welcome changes
+* | 6625b7ea : header reload controls
+* | 06f6fc59 : Hide edit in admin options when instructor access to wp admin is restricted
+* | 25632fd4 : instructor courses
+* | b069e7e3 : displayed user id for user’s my courses, parent feature
+* | 6d4ea55d : sensor removed from contact page
+* | 3d61bc60 : max width set to 1440 customising bootstrap
+* | 81523934 : new course header
+* | 1672db59 : course 6 block item
+* | 732d1654 : header image fix on ie
+* | dcf0fbea : new course layout
+* | a064a831 : request URI contstant for PHP 7.2+
+* | 2b6ee997 : ajax header reload
+* | a23182e8 : woocommerce cart template version change
+* | eb872036 : suggested rtl css
+* | 8f926b29 : emptoy to empty
+* | 73933904 : filter to allow course record progress
+* | e7ff08f8 : header fixes
+* | 3ef7a0b8 : welcome page changes
+* | 084ae929 : version 3.7
+* | e0e27cdc : bundle templates plugin with VC
+* | 2f581342 : small avatar fix
+* | 9c061e45 : general header fix
+* | b4041a26 : welcome changes
+* | 3ea8ae2c : option for course search
+* | 22dca61c : nav search
+* | 4239f726 : header elements
+* | 80b2c31f : success message in place of ajax error.
+* | 4c166f3b : change all categories to all
+* | 0db0b54d : app header alternate logo fixes scss
+* |   e8666821 : Merge branch 'test_branch' into develop
+|\ \  
+| * | 6dc8dbbd : filter to disable force guest checkout
+* | | 09e5d3a9 : alternate logo support in app style header
+* | | 208cfc23 : warnign fix
+* | | b05357f1 : Grid based fixes in CSS instructor display
+* | | 4b931e4c : XSS vulnerability fix in search
+* | | 41ed5db9 : translation update
+* | | 8e572311 : New update system
+* | | 0705e1be : New update method
+* | | 9a9f3312 : member header variations actions
+* | | 4d7471b2 : grid-based-fixes
+* | | 883020f6 : university header
+* | | fdb55701 : new actions in member header
+* | | efc1f111 : removed deprecated create_function call
+* | | 678ea0b9 : Grid based CSS in search
+* | | 90b13763 : nav search
+* | | 199b572b : signon security ajax
+* | | 491be38c : Floats changed from left to start
+* | | 5acb7405 : Customizer set to refresh changes not load
+* | | 7b360f31 : instructor CSS display updated
+* | | 2563ba9c : Bug fix : missing ID in login page.
+* | | 7ebc4135 : Feature : Course Nav search
+* | | 873c44f2 : bug fix to avoid CSS loading on WP admin interface
+* | | 101fc412 : Security via ajax for cached logins
+* | | bc51e995 : welcome
+* | | f0058d5a : 3.6
+* | |   b5f564e6 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\ \ \  
+| * | | 3f66bf1d : welcome changes
+| * | | 74aba34a : added welcome email in welcome page
+| * | | 19e724f3 : 3.6
+| * | | f77e3029 : woocommerce mini cart fix in header
+| * | | 67329087 : woocommerce mini cart fix
+| * | | b551f27d : woocommerce templates update 3.4.0
+| |/ /  
+* | | 398ac889 : background in transparent
+* | | bd8d1aa2 : group cover image class
+* | | 3d2bad1e : profile class
+|/ /  
+* | d5323ed2 : demo 10 options panel fixes plus menus
+* | 94825477 : TGMPA updated
+* | da8e3b67 : notice fixes
+* | 954c7c58 : default demo content export added
+* | c88db529 : 3.5.1
+* | 4427bd5d : welcome changes
+* | ad1c0024 : fitvids fix
+* | 9e3f084d : css changes in the controls
+* | f6dc3c1c : version update in welcome page
+* | f89c105c : class.php fix
+* | f2d0e850 : RTL CSS Styling Fix
+* | 031d9da1 : Demo 10 changes in options.json
+|/  
+* 581f7999 : 3.5
+* a784f82d : setup wizard fixes
+* 04bc9ff4 : welcome changes
+* 7a81c5be : plugin active check attempt 1
+* e79d6e0f : 3.5 update log link added
+*   47077af3 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 5cdaab6a : commits
+* | 9e33dffc : welcome changes
+|/  
+* e7f70d0c : removed extra sliders from demo 10
+*   4a910408 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 7b889f1b : one click installer
+| * b6cb1d42 : font string fixes
+* | bc93f5cc : demo10 in setup wizard
+|/  
+* 2b3ec654 : Customizer color with opacity
+*   b80328ca : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * c686ba16 : one click installer in theme
+| * bc752ba8 : setup wizard overlay
+* | 7e76f28e : font wieght issue fix in customize
+|/  
+* 5540c05d : start date fix
+* 44c84b5d : When header style is App style and login style is Pop up, it creates js error "2 elements with non-unique id" fix
+* 1ae589f2 : xapi quiz detect
+* 86d52b77 : demo6 demo content fixed
+* cb1cf6b6 : Added logo size and logo in childone
+* 9f91c83c : course category images demo7
+* 85361040 : demo8 guid images link change
+* 4d1069bd : demo 7 guid images link change
+* 68c96d9c : 3.4.2
+* 6fbae682 : logo size in oneinstructor and child one in demo switcher
+* 6213e602 : one_instructor to oneinstructor
+*   0548254a : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 98c324a1 : Filter added for site lock redirect url
+| * 25820a6b : logo size, logo black fix, footer logo fix
+| * 4f175022 : onecourse footer logo fix
+| * 145cce2e : demo1 logo fix
+| * 71e1386f : demo2 footer logo fix
+| * f2474021 : demo4-footer logo, widget banner image, duplicate single text color fix, default footer logo white
+* | 1c22f126 : footer logo oneinstrcutor fix
+|/  
+* 37d3b150 : one_instrcutor demo fix
+* 4c515d0d : footer logo fix demo6
+* 376a7c34 : demo7 footer logo fix
+* 22735669 : demo8 footer broken image fix
+* 7f919b6a : footer logo fix in default demo
+* df68e90d : footer logo fix demo 5
+* 1b9e8823 : changes in demo 8
+* 62e1f627 : no message
+* c1e2d66f : demo5, 6,7 change in options.json
+* 96693502 : demo 4 images link changes in widget.json
+* ba26b44e : demo3 images changes in options.json
+*   d2f329a5 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 01b1785a : demo 5 options.json fix
+* | 6d7dffd3 : demo1 & demo 2 logo size change
+|/  
+*   fdcf5b68 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| *   fec4c3aa : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| |\  
+| * | 4e43245c : demo 5 json data fix
+* | | 693f01f6 : logo size fix
+| |/  
+|/|   
+* | 27a886e7 : demo 2 white logo, demo 3 footer logo
+|/  
+* cb084f5c : demo5 fix
+* 9c96920a : no message
+* afe5bf30 : changes in demo 5 and demo6 json
+* d4b972d0 : no message
+* 8f9f98ec : change links of logo in options.json
+* a66c7b92 : changes done in default.json
+* 3b378165 : woocommerce template notice fixes
+*   7655b341 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 09ce2dac : title_bg fix for demo9
+* | d4a2a8f8 : woocommerce templates updated
+|/  
+* 8cca7144 : 3.4.1
+* 2f9f858e : title_bg fix
+* 6e8ff939 : sliders of demo9 in demo switcher
+* 02dbe9a0 : demo 9 at 2nd position
+* f50b78ba : removed modern theme from demo switcher and demo9 home page import was not working  fixes
+* 17591472 : text_upload_field_bug
+* d3e61677 : 3.4
+* c5887f0d : bug fixes
+* 3b7d46f9 : demo9 fixes
+* e5ca432c : welcome page ready
+* 30f0251c : welcome changes continued
+* 40890605 : welcome
+* acb84bcd : Demo9 slider import fixed.
+* d59993d7 : button fixes
+* 73b452f0 : added demo 9 in demo switcher
+* 0b3b4ede : page title on wp_die for invalid certificate code fix
+*   29833333 : Merge branch 'feature/demo9_export' into develop
+|\  
+| * d80c03c4 : Demo9 image added in setup wizard
+| * 63171849 : Demo9 option added in the setup wizard
+| * fd91fdff : Demo 9 content json added
+* | 361d0ff9 : big fixes for logged in popup
+* | 25a8f8f1 : tranlations
+* | fc29bbd3 : course category carousel fixes
+* | a3bf4f1c : Modern theme content removed from setup
+* | e8fdda94 : title color fix for header style transparent
+* | cd548f8e : envato setup import links now point to wplms.io
+* | f4a40ff4 : material theme default colors
+|/  
+*   a7a7b1c5 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * f50bbd69 : logo and raw text fixes
+| * d5d2ca2f : material skin
+* | 5bfe9102 : certificate validation widget fix
+|/  
+* 70ef8510 : Layouts changed in modern theme import
+*   36dc9fc2 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * e1e31431 : Security parameter in ajax login fetched from js
+* | d58dd550 : tabs style layout fix
+|/  
+* e95afc0a : removed "echo" from wp_nonce_field in demo switcher fix
+* 01120ff7 : Upload logo or write raw text
+* eb0b4d7a : field type text or upload for transparent header
+* fa4d0176 : footer changes
+* 3b7965f1 : header changes for the Logo and text
+* 03ee95d4 : new field type for options panel, text or upload
+* b78b7517 : demo switcher bug fix
+* bf168710 : extra checkout fields removed for Variable products also
+* 50182765 : 3.3
+* b7ca9fcb : Version update and welcome changes
+* fcd2064a : layout blocks now appear in images
+* bf7ae0c1 : blank course template added
+* 60b23408 : 3.2.1
+* 827c2a9b : change saved
+* 61c44f34 : one instrcutor import not working
+* c4a39064 : 3.2
+* 2b446366 : welcome changes
+* bef50d33 : Export wizard name change
+* ae74f535 : options data json validate fix
+*   8909b3a0 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 5166df90 : Popup login style added in onecourse setup wizard
+| * 3b37b43a : Modern theme layout changed while importing from setup wizard
+* | 29376f18 : child themes demo switcher
+|/  
+* bf11171a : Add export setup wizard option under appearance
+* 31d4ff5c : Modern child theme home page bug fixed in setup wizard
+* d7a790c4 : Child theme css added in vibe_customizer in setup wizard
+* 7c8202eb : folder renaming and images for child themes
+* 616a60d5 : Modern theme also added in setup wizard
+* 06febd90 : Css for hidding header added for one course demo
+*   d01fcfda : Merge branch 'feature/child_themes_in_installer' into develop
+|\  
+| * 8debb2f7 : Featured block added for child one theme style.
+| * 479c7e5f : Featured block added for point system theme style
+| * f9a3ada4 : Child theme content added
+| * a5f4a096 : Child theme links added in setup wizard
+* |   8ec14e59 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\ \  
+| |/  
+| *   9c8a9031 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| |\  
+| | * ebab7d5a : Import images from the uploaded export content
+| | * aef1cdb7 : Child theme's css file included in header
+| | * 95df0b58 : Images exported successfully
+| | * b4d95018 : Title added for exported content
+| | * 0f229a11 : Fetched all content from the uploaded path
+| | * cb2e71b3 : Zip file uploaded and unzipped successfully
+| | * 0ad60dea : Apply pl_upload in site setup wizard for uploading exported content
+| * | dc938be7 : drip feed emails not working when ajax is disabled
+| |/  
+| * c216f5c8 : Export demo content from theme setup wizard in zip file added
+| * b2187bf0 : pmpro cancel level bug fix
+| *   f11e483e : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| |\  
+| | *   9bcd07d2 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| | |\  
+| | * | 7468d366 : required versions of woocommere and buddypress changes
+| * | | c52bb3e7 : Rtl css issue for ratings fixed
+| | |/  
+| |/|   
+| * |   76409d0b : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+| |\ \  
+| | |/  
+| | * 35c9a25d : quiz stats in in-course quiz support
+| * | 0506dd0d : Brazilian portuguese translation file updated
+| |/  
+| * 4a11e5d7 : buddypress active check added on woocommerce my account page.
+* | 4733972a : title BG
+|/  
+* 9ca04393 : 3.1
+* 82e12fff : pusher overflow hidden
+*   95015c28 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 9f42c450 : pmpro my courses fix
+* | d1230bdd : Hide course button check added on woocommerce thankyou page.
+|/  
+* 8e3353ad : Related courses showing hidden courses also bug fixed.
+*   2c2f5f0d : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 6b498c96 : desc appearing twice fix modified
+| * 94059d39 : course tabs with footerbottom fix
+* | 0a28f893 : Background title image not changing on course directory page bug fixed.
+|/  
+* 888eb85e : profile field description appearing twice on register page fix
+* 23bd139a : 3.0.1
+* d1bec429 : 3.0 icon added
+* 8fa240ff : bp pagination conflict fix
+* cb867035 : 3.0
+* a5d8a98a : 3.0
+* 988e8c8b : welcome changes
+* e6fd228c : slider not importing
+* ed9aa35b : no escape from course review submit page on course home page fix
+* 60aaa923 : Message template changed by buddypress
+* 1d0ce9de : site setup fixed
+* b46c3c9a : Avatar bug fix
+* 7ab4747a : pagination fix
+* d2754535 : course replaced by page for icl object id in course navigation widget.
+* c9040f3d : avatars not showing in ajax calls
+*   a11a05aa : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 686d717d : Course category navigation widget issue with WPML fixed.
+* | d56ecfc7 : envato update plugin removed
+|/  
+* 30641b13 : 2.9.2
+* aac40d88 : Certificate validator not showing image if present bug fixed.
+* 12a94e7e : welcome changes
+* 1f3759b2 : translate google captcha
+*   a6deb9f9 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 97cf6519 : Course status also shown in the instructing courses.
+* | a1dcb9c0 : cart page version upgrade
+|/  
+* 41a01577 : setup file changes for site_creator plugin
+* 294eeb61 : checks for site creator plugin
+* 310966c2 : group type hook added in groups loop file
+*   c2686c59 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 754e6133 : 2.9.1
+* | d48d0865 : bbb addon and h5p addon slug fixes
+|/  
+*   9727c610 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 136c3699 : 2.9.0.1
+| * 1a9cefbb : 2.9.0.1
+| * e24e2933 : bug fix
+* | 85c79146 : tabs style fix if course permalinks is course directory
+|/  
+* 3d85c601 : updated logo
+* efcd928a : 2.9
+* 746d0a3b : pot file updated
+* 2f29e506 : version update
+* d17806b2 : demo8 title bug fix
+* 40241e23 : woocommerce endpoint in bp profile fix.
+* 2e50e501 : single events page compatibility with eventon 2.5.4
+* bffc3164 : cart page interested items fixes
+* 3f2b6051 : welcome changes
+* 6600ea73 : inst comment reply not posted single unit page fix
+*   25ab1bc4 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 66934352 : Translation issues fixed
+* | 7fc3f423 : Revert "unit comment form single unit page fix"
+|/  
+*   4c9c2506 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * bc2c80d7 : Cart with recommended items display fixed.
+* | baea9fbf : version check for eventon
+|/  
+*   7723674d : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 87315252 : Unlimited retakes shown in stats for course
+* | 55a649e0 : course link not showing in email template of woocommerce
+|/  
+* 795645ea : woocommerce deprecated system
+* 9fa1e9b0 : unit comment form single unit page fix
+* 106c2b91 : continue class added on start quiz button to distinguish
+* 47b0f551 : course upload changes
+*   79d69b92 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * def06607 : Learningpath css added
+* | 82e88434 : upload course template
+|/  
+* 3e5d189d : Demo fixes
+* c49e47da : start course page template changes
+*   de00d854 : Merge branch 'develop' of https://github.com/MrVibe/wplms into temp
+|\  
+| * 5b5d1ecb : notice supression
+| * 26cc4495 : changelog
+* | f70f091b : footer on all events page template eventon
+* | 6f261572 : comments on single event
+|/  
+* 51c041d4 : welcome changes
+*   317be0a8 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * 20572bbd : 2.8.1
+* | b556ca1d : welcome changes
+|/  
+* ba26e211 : buddypress auto filter stopped
+* 87bc55c9 : placeholder translation
+* e5f08d9c : demo switcher update
+* 14551eaa : Filter for unit attachments added in single unit page
+* 902cfe05 : hidden course showing in profile fix
+* 4456e6e8 : module tag not working fix
+* 59dbe510 : tip added on certificate
+* 88950a86 : single event page issue fix
+* 92d81a0f : rating refined
+* c22a7bfa : demo switcher css changes
+* 34267341 : demo_switcher changes
+* 4f03e541 : Revert "star rating refined"
+* 2889ebf1 : star rating refined
+*   ded1571b : Merge branch 'feature/demo_switcher' into develop
+|\  
+| * 2c39ef36 : demo switcher
+| * 1c3aee5d : demo switcher layouts
+|/  
+*   4f2aea8e : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * c6395a2a : Ajax login showing missing data in child theme bug fixed.
+| * c38cdc11 : default sliders for layerslider
+| * 28c456f3 : redundant images removed
+* | 53b85400 : date format in blog 3 template
+|/  
+* 561eaf04 : wplms icon updated
+* 91748d12 : 2.8
+* 4ffa01db : welcome changes
+* 97b0872e : Translations Updated.
+* 783ae302 : Notice fixed.
+* 50b91f37 : ajax login redirect fix
+* e3adbeaa : demo7 and demo8 added
+* 48c22c01 : execute shortcode in subtitles
+* 9adfbecf : woocommerce short fixes
+* db9aacb4 : demo7 and demo8
+* 6108cfb4 : Fatal error on woocommerce deactivation use case fixed
+* 5780c145 : deprecated filter add_to_cart_redirect, replaced by woocommerce_add_to_cart_redirect
+* da6abc2c : Google captcha added in buddypress registration form.
+* 6a4ff2fb : single unit attachments
+* 49ab7b01 : context menu disbale on course status
+* 8d928271 : units attachments fix
+* 48b30c1f : oAuth script change
+* 544b7501 : course - members sortby available
+* 804eaf56 : certficate image detection
+* 79b724aa : minimal style changes
+* 39e089e5 : dashboard plugin required message removed for news.
+* 40541068 : badge size fix
+* 4c5833aa : Filter added for badge attachment size in course stats
+* 918d3f4f : cart page template
+* eaf9b729 : buddydrive not active in multisite fix
+* 6785cb9b : buddypress " bp_before_member_settings_template "  action added
+* 4115ec0e : woocommerce single-product version update
+* 1f7445d2 : Units showing discussion option even after disabling the comments bug fixed
+* 0933c137 : Unit Attachments shown above discussion
+* 1686f9fb : 2.7.3
+* bcbe3847 : WPML pages not saving in vibe option panel fix
+* ccd28b07 : woocommerce template fixes
+*   0fbf3fc5 : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * ec582fb7 : woocommerec label css fix
+| * 756a25d9 : 2.7.2
+| * ab5ba950 : version update
+| * 09d4e440 : Template version update
+* | 34cf8d14 : wpml assignment back to course fix
+|/  
+* 8749c249 : transaltion fixes
+*   ce94928b : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * c8786f3b : Co-Authors not showing in single posts bug fixed.
+| * 9ab8a94e : Non looged in user able to purchase course even course seats are full, bug fixed.
+| * 7123b8d5 : file compare issue
+* | a4c329a5 : cart page template fixes
+|/  
+* e7b263d7 : shop page category fix
+* d3b03f8f : WooCommerce 3.0 compatible
+* c27e6617 : WooCommerce photogallery and swipe
+*   610ca6fe : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\  
+| * c7a61c34 : Tested with WC RC 3.0
+| * 89f4bd94 : 2.7.1
+* | 92aa48c9 : cart template woocommerce
+|/  
+* 3d73a3b7 : coAuthors fix
+* a98c902a : BadgeSize filter
+* ddfeb622 : bbpress duplicate breadcrumb fix
+* 1e636dfd : Gift Course display item_id missing from items
+* 7b458384 : Certificate regneeration in stats template
+* f1787ade : Co-authors disaply function modified on blog page
+* 021fd26e : Co-authors not working in blog posts page bug fixed.
+* cee855ef : rtl fixes
+*   56edc996 : Merge branch 'master' into develop
+|\  
+| *   424de4fe : Merge branch 'hotfix/2.7'
+| |\  
+* | \   d929e809 : Merge branch 'hotfix/2.7' into develop
+|\ \ \  
+| | |/  
+| |/|   
+| * | 296e2863 : translation files updated
+| * | 6c5b2716 : welcome page
+| * | a5d23c09 : welcome changes
+| * | 6661836f : Translationn Files Updated.
+| * | 3d5d1afb : 2.7
+| * | 10fd84c4 : fullscreen course status icon change
+| * | efed83a2 : Fullscreen layout tick icon fix
+| * | abdb86b3 : white link in BBPress notices
+| * | 4ad45b4a : safari mega menu stuck fix.
+| * | 92a0c82a : Translation Files Updated.
+| * | bea73c4e : edit comment link in unit per unit comments style
+|/ /  
+* | 94917f71 : Notification Count funtion fix.
+* | 223c0b7e : Notification Count function fix.
+* | ceaf7ec2 : New featured blocks added in related courses.
+* |   98e08213 : Merge branch 'release/2.7' of https://github.com/MrVibe/wplms into release/2.7
+|\ \  
+| * | fe8d3ac9 : reverse commit for missing sample file
+* | | c5fb459b : Course retake function moved to course module
+|/ /  
+* | 304594c6 : disable ajax reg in login page template
+* |   aa88d815 : Merge branch 'release/2.7' of https://github.com/MrVibe/wplms into feature/2.7
+|\ \  
+| * \   598fa09e : Merge branch 'release/2.7' of https://github.com/MrVibe/wplms into release/2.7
+| |\ \  
+| * | | 2f033ae7 : Odnoklassniki icon added in social media icons.
+* | | |   60d1edac : Merge branch 'release/2.7' of https://github.com/MrVibe/wplms into feature/2.7
+|\ \ \ \  
+| | |/ /  
+| |/| |   
+| * | | 9243e476 : Installer and setup fixes
+| |/ /  
+| * | 98f8428f : Strict standard issue on single unit page fixed
+| * | 41d32240 : ABSPATH check missing in single certificate.php file added
+| * | 0fd7db0e : shortcode and news style fixes
+| * | 71caa6e4 : Login via email suported
+| * | 11626970 : MegaMenu sidebars blank for non-loggedin users
+* | | 0baf6eb4 : forget password issue in login page template
+* | | 4a74c71a : course tab fixes
+* | | 34a2e5ef : remove ajax reg login from wp login
+* | | 88cb3715 : course tabs fixes
+* | | 19c4fbe2 : bug fix in tabs garbage variables
+* | | 3a09391b : login page template cookies fix
+* | | 691a9b4c : tabs style fixes with translation
+* | |   8641bce7 : Merge branch 'release/2.7' of https://github.com/MrVibe/wplms into feature/2.7
+|\ \ \  
+| |/ /  
+| * | 1ae67c49 : Drip feed not working properly if skip course status page enabled bug fixed
+* | | d460b4bc : title bg image not shown on blog page transparent header
+|/ /  
+* | 42276623 : Image invisible while uploading in option panel bug fixed
+* | 5cce7a22 : new featured block styles
+* | a7659a96 : 2.6.1
+* | fdd1b63d : select2 styling changed
+* | 2dc2736a : commentour code removed
+* | 07d43190 : tabs style layout fixes
+* | 6f9770bc : Fixed menu fix
+* | f37ea6e8 : heading style fixes in course page
+* | de334e9e : redundant settings removed
+* |   a2b282fd : Merge branch 'develop' of https://github.com/MrVibe/wplms into develop
+|\ \  
+| * | 8d1be491 : timeout increased for slider download
+* | | bfe2ec90 : Pot file synced
+|/ /  
+* | 4159905f : Notices fixed.
+* | 10f2debc : notice fixes in buddydrive.php
+* | fe13397a : 2.6
+* |   6762c7c3 : Merge tag '2.6' into develop
+|\ \  
+| |/  
+| *   e5edcdac : Merge branch 'release/2.6'
+| |\  
+| | * 19343834 : welcome screen changes 2.6
+| | * c2fee134 : translation updated
+| | * e743ec33 : height if flexmenu according to vh
+| | * c5c7ca01 : console message removed from new search
+| | * 830d3eb1 : padding issue fullscreen
+| | * e6975b09 : progressbar styling changed to primary color
+| | * 3291613c : warning when custom nav deactivated
+| | * f8b25537 : scrolltop adjusted when tabs style active
+| | *   b29f4e40 : Merge branch 'release/2.6' of https://github.com/MrVibe/wplms into release/2.6
+| | |\  
+| | | *   f118288e : Merge branch 'release/2.6' of https://github.com/MrVibe/wplms into release/2.6
+| | | |\  
+| | | | * f09f6455 : installer fixes
+| | | * | de678cc7 : search divs removed in sleek and centered headers
+| | | |/  
+| | | *   13060f0b : Merge branch 'release/2.6' of https://github.com/MrVibe/wplms into release/2.6
+| | | |\  
+| | | * | 88f7c4c4 : tabs style fixes
+| | * | | 728dd739 : Enrolled Student show check removed.
+| | | |/  
+| | |/|   
+| | * |   3b8d238a : Merge branch 'feature/Header_Searches' into release/2.6
+| | |\ \  
+| | | |/  
+| | |/|   
+| | | * eb47e7db : minified files
+| | | * 1c783738 : 2.6 version update
+| | | * 47a7f9be : search and mobile menu changes
+| | | * 095b2685 : search changes
+| | | * 95694019 : search changes in header
+| | | * 5c209ead : search in footer
+| | | * 78e1d155 : customizer changes
+| | | * 4313082f : default header
+| | * | eff82d78 : course tabs refined
+| | * |   299ed26b : Merge branch 'release/2.6' of https://github.com/MrVibe/wplms into release/2.6
+| | |\ \  
+| | | |/  
+| | | *   8a1ef368 : Merge branch 'release/2.6' of https://github.com/MrVibe/wplms into release/2.6
+| | | |\  
+| | | * | 29f731e3 : Meta key missing in the content register.php file added.
+| | * | | 8d32e94b : course layouts refined
+| | * | | 337bf9ad : default style will be course if default style is not set in wplms options
+| | | |/  
+| | |/|   
+| | * |   0af298ec : Merge branch 'release/2.6' of https://github.com/MrVibe/wplms into release/2.6
+| | |\ \  
+| | | |/  
+| | | * 1ac7b4a4 : signup button not translating bug fixed and corrected the text domain
+| | | * d1117139 : Get content fixed in the setup nav
+| | | * aed74c1a : Last activity added in the wp-admin->users status column
+| | | * 1425d00e : wplms_course_purchased filter added to modify items in thankyou page
+| |_|/  
+|/| |   
+| | * 314ce95d : course tabbed layout for all course layouts
+| | * 509b333e : custom tabs done with scrolling
+| | * fcdcd78d : course templates
+| | * 4a5fa755 : automatic disable gues checkout when course product in cart
+| |/  
+|/|   
+* | ef01a8b6 : remove conflicting login script
+* | 32392faf : ajax login not working with wps hide login FIX
+|/  
+* be29d49a : ajax login fixes
+* 48fed5b6 : pricing color applied on woocommerce label
+* 95c0a2dc : login registration page fix.
+* 2f914639 : disable registration and forgotpass form appearing in WP Login page
+* f30642ea : welcome changes
+* e4d76436 : 2.5.2
+* 0bd7116a : translations fixed and updated
+*   fe5806f6 : Merge branch 'feature/fuzzy' into develop
+|\  
+| * 4d49a7ad : styling bug fixes
+| * d38c913f : fix for remote get
+| * 09bd36e6 : slider import failed issue resolved
+| * a4cb6db8 : customizer switch issue resolved.
+| * 97e93977 : Visual composer added in setup wizard
+| * 3a0b0ae0 : forgotpassword email
+| * d957be3c : fix error message handling in Ajax login
+| * 19643644 : course review follow discussion order setting fix.
+| * fe51a3d3 : html check in sub title
+| * b39531ec : wplms signon function ajax based
+| * 372ee04b : Default course block not showing in the course category fix.
+| * 05d8f888 : Fuzzy Translations Fixed.
+* |   77094ce6 : Merge branch 'hotfix/test' into develop
+|\ \  
+| * | fa06afad : styling bug fixes
+|/ /  
+* | 60ba1339 : fix for remote get
+* | f79283f6 : slider import failed issue resolved
+* | 152bfc6c : customizer switch issue resolved.
+* | 9038771e : Visual composer added in setup wizard
+* | b340f6b6 : forgotpassword email
+* |   7d094518 : Merge branch 'hotfix/fixlogin' into develop
+|\ \  
+| * | 6b6eae7e : fix error message handling in Ajax login
+|/ /  
+* |   884d261e : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| * \   e2bae48b : Merge branch 'feature/ajax_signin' into develop
+| |\ \  
+| | * | ded4121a : html check in sub title
+| | * | 9c91ac48 : wplms signon function ajax based
+| |/ /  
+* | | 64178e44 : course review follow discussion order setting fix.
+|/ /  
+* | 4cc9046b : Default course block not showing in the course category fix.
+|/  
+* 119ebcb8 : Category title and description removed before course content
+* 55536934 : The category title in page title for category redirect to course directory
+* 84e8f5ba : comment approved check for ratings.
+* d144d80a : WPML support for options panel pages
+* 5dd9e6f5 : links to resources changed
+* a481f2ca : redirect on activate fix
+* 460c38c0 : ajax registration and forgot password
+* fe65a299 : s3 url for slider download
+* f6216365 : misc fixes
+* 44cdff62 : 2.5.1
+* 19a8c6bc : custom walker
+* 7b5d43ac : slider issues in demo content import
+* ed61091b : login template fixes
+* 3d0eaa00 : course status link in options
+* 4bf50021 : welcome change
+* c0f3eb6c : styling changes
+* 59e896a7 : popup login style fix
+* a40b67a9 : plugin versions updated
+* 1b9ab182 : fixed notices
+* fe08583d : updated fixes
+* 4283c21a : customizer - options panel saperated from Settings
+* 584b0cce : co-author filter change and course by instructor fix
+* af1419f0 : 2.5
+* 61b1fa7d : translation files updated
+* e39831e2 : the_author for post SOE meta data
+* 417aafc0 : deleted course certificates should not be displayed
+* 8898aff7 : styling fixes
+* 20e69667 : eventon upgrade notice
+* 4ba1ed13 : welcome changes
+* 2d29e9b4 : enable_signup handling.
+* 36bfdd7d : vibe_update_option fix
+* 7f50344b : only replace values if non-existent in options apnel and customizer
+* 3114f705 : custom signup page option
+* 0120e516 : styling fixes
+* 405e9b58 : style changes
+* cc5afd3a : security parameter in certificates
+* 0b613115 : rating appearing in Assignments
+* 824a0095 : 2.5 version update
+* b364aa34 : default course status template
+* 9526fe4f : customiser changes
+* bb5414b5 : regenerate certificate if not generated
+* e6075dbe : styling fixes
+* 94e469ec : download button added
+* 6134cdec : pursue panel content block added for flexible course curriculum area.
+* dbbfe08c : Plugins based on features fixes
+* 898a3590 : options updated in installer
+* 94a01ee2 : updated options panel imported data
+* 8182eac8 : course status template css
+* becf9e9d : clear imported ids for reimport
+* 7b264ce2 : Course status templates added.
+* b31f42c6 : redirect  to my courses on activation fix
+* 8fd6b0bd : eventon page templates
+* d224d789 : Minor Text fix.
+* 4404796d : Page hierarchy in breadcrumbs
+* b5235fc4 : course status page template updated
+* bbd47e6f : upload field type updated
+* db3e0391 : 404 page fix for multi-language.
+* a99de015 : Ratings form not working correctly with custom course slug
+*   fcb4ee54 : Merge branch 'feature/1clicksetup' into develop
+|\  
+| * cfb68a30 : importer complete.
+| * f52ca0d6 : sliders hosted on vibe API
+| * 3f4056b1 : installer ready for demo1-6
+| * 5d16853a : shopping cart icon changes
+| * 2c04e687 : remove backup
+| * 4b081d2e : search icon change
+| * 120f4eff : gulp changes
+| * 1ee71398 : demo3 content ready
+| * 1ff83364 : hide additional li in login popup
+| * 7c6c4ac1 : demo2 installer function
+| * 6c22bd32 : demo2 installer ready
+| * 3766d82d : demo1 final backup
+| * d695d6d3 : setup installer fixes
+| * 8ef4fdab : Theme selection in Envato setup
+| * a8c61f39 : js color added for color selection
+| * ffc00bda : demo1 installer complete
+| * 31b29626 : demo1 import complete
+| * 3451687f : default logo
+| * 6ce9c6f4 : include installer in functions
+| * c4643572 : plugin installer updated
+| * 1324e7d2 : Installer init
+|/  
+* b5f8b299 : Add friend button added in course members area.
+* 7fef172e : Bp pages site lock bypass filter added.
+* 8d9e91f0 : Create group button visible to everyone fixed.
+* da03557c : Hide page title bug with breadcrumbs fixed.
+* 86065b15 : wpml config updated
+* dfd04d95 : course comments check
+* 1218a5af : welcome changes
+* f11e5a4c : 2.4.1
+* 922ea2dd : welcome page fixes
+* d7561abd : is_customiser_preview check
+* 3d694889 : 2.4
+* b25be982 : translation update
+* 1744c469 : Welcome page changes
+* 51043423 : RTL Fixes
+* 5ba8cb03 : responsive fixes for tabs
+* f2f374b5 : Buddydrive fixes
+* 9a329055 : Plugin versions updated for install
+* e59765e3 : Buddydrive update message
+* 49dcbd0b : customizer changes
+* 9d864f20 : Buddydrive updated
+* 24241bc6 : Activation Redirect fix
+* 8705eee3 : option panel changes
+* 8b44827e : styling changes
+* 73ba1631 : inset box shadow in app login
+* 1b939985 : add height to full browser height on single activity page
+* 65fe6e18 : add hook wplms_after_course_directory
+* eaeca3fa : missing title component in fullwidth template
+* 6fa3dac7 : add widget classes in footer for widget selection and custom styling
+* 433281ed : customizer fixes
+* b716bd82 : Course Category/Level Location redirection
+* 151d0bba : redirection on activation for dashboard/profile and courses option
+* 5c2b072f : abspath check for WP execution
+* b000d20e : flexbox in modern login
+* 297cec73 : Nofollow on #login link in header
+* d9b4709a : Directory Page fix for WPML
+* 15667166 : Breadcrumbs fix for courses
+* e75801e4 : Badges HTML only visible if present.
+* aba7146d : Skip course status page option
+* 936638c9 : Display instructor fix
+* 559b53e5 : reverse the Rating order in courses
+* 7840adaa : items added in gitignore
+* c26b84c0 : remove bower components in git, added in gitignore
+* 422b6552 : nodemodules removed from git added in gitignore
+* 940c67ac : New options
+* 16431bd6 : setup
+* be77b511 : Instructing courses in Profile
+* 369c5979 : notifications check in logins
+* 3028f66f : function usage bp_course_curriculum for batch specific curriculums
+* f2045b01 : close icon on certificate template
+* 2880aad0 : Importer updated
+* 1b0f46ec : Registration page would show content from Page content area defaults to static text
+* aafd8f4b : WP Admin login form colors come from Login panel in customizer
+* b11225b0 : Breadcrumbs now follow parent child category heirarchy
+* 69a54ea9 : excluded courses not visible for Coauthors
+* b26790db : customiser changes
+* 478bf6de : Badge should not appear when deactivated for course.
+* f7b30e95 : close icon for certificate
+* 8f426a2a : Page loading styles
+* 3d8ea03d : Course action controls
+* 0704de97 : Notice fixed on redefining constants
+* 04f11b51 : & removed from class object.
+* b2e1a363 : customizer fixes
+* 816bfe91 : New translation files simplified chinese
+* 6363f8b9 : Node modules added for Vagrant box
+* b4f3ae9c : Footer scroll to top positioning fix.
+* 5e631f93 : 2.3.1
+* 8c6eb000 : demo data install fix
+* 2690494b : app style header fix
+*   d711008e : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\  
+| * 1d897e21 : 2.3
+| * f8278c5e : version update
+| * a68d3970 : related course diplay only when available
+| * 6d8bc07e : warning message fixes
+| * fbab851a : translation files updated
+| * 95e8ec78 : Welcome changes
+* |   b5ce88ac : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 7833fed3 : welcome changes
+| * 52d47a3b : version update for plugin init
+| * ec069dc5 : bbpress user topics/replies pagination fix
+| * 41310100 : customizer fixes for app style header
+| * 62f3ddf0 : Template version update
+| * 7b53935e : shopping cart blank fix
+| * 64592475 : Generic header fix
+* |   5341e258 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * f5b53316 : profile display in default
+| * 73c36ce2 : notification in drip
+| * 32835011 : Alt attribute for logos
+| * e8ad5e1b : MEga menu max elements not saving fix
+* |   9835d8fd : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * eb9c661f : retake fix
+| * 58a8dee9 : css and js fixes
+| * 31f57f54 : default style in instructor courses
+| * 0121cbb7 : Drip feed fixes
+* |   bb738eeb : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 95f07da0 : contact page fixes
+| * c2ed1cdb : id value for course tabs
+| * 76d82f1f : Yoast SEO for buddypress fix
+| * d1e6d860 : customizer fixes
+| * 670aad24 : drip functionality fix on page reload
+| * 10bf2651 : css fixes
+* |   8d303f4c : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 4e4d25f0 : Yoast SEO compatibility with BuddyPress
+| * 867a5857 : get unfinished unit error message improvements
+| * ee7668b9 : Related courses
+| * fa872b2a : Default course block
+| * 5b706b69 : Revert "drip"
+| * c534e524 : drip
+| * 4786d424 : update medium option.
+| * 10ed87fa : default archive
+| * c6884d7f : course status check in Stats section
+| * 9393745a : include fonts only when included
+| * 102f4a2b : buddydrive removed from recommended list
+| * b38c5967 : woocommerce error link fix
+| * 5d3516b6 : user stats fix
+| * f18bdcb7 : default archive style
+| * 2d34c773 : translation bug in pt_br
+| * 9c83f137 : function to get unit course id
+| * cf112d75 : certificate class for stopscreenshot
+| * dd982b8c : auto width in fixed headertop
+| * 38c0fd2a : jq definition bug fix
+| * 511bbb06 : domain path added
+| * 283208f1 : force compelte removed
+| * f368a1fb : importer update
+| * 349c36f5 : uni reusablity
+| * 870b3afb : translation fixes
+| * d3f808ba : wp 4.6 updated language codes
+| * fbca408c : Header generic added
+| * a1b22431 : default avatar support
+| * a3881f09 : customizer changes
+| * 7ed7438f : force enable progress bar in courses
+| * c555be57 : translation fixes
+| * deac5b04 : pmpro connect fix
+| * 0974d2ae : translation fixes
+| * ce640c94 : styling fixes
+| * 7659e311 : translation fixes
+| * 1d3fb78d : social field group for buddypress profiles
+| * d30cc1e9 : Headings font sizes and colors
+| * bde5eda1 : Minify the style generated by customiser
+| * b80c8857 : New skin and Header
+| * 939949d3 : Tempalte files security fixes
+| *   f6730cc7 : Merge branch 'feature/signups' into develop
+| |\  
+| | * 3eaa492d : translation files
+| | * 1c7c6e20 : recalculate counting on delete comment
+| | * eb88fc39 : attachment thumbnail sizes check in course cat edit panel
+| | * 7f70d53d : registration form css
+| | * 103a78c6 : Ajax loader changed
+| | * ef69a264 : wplms_modern translation string found in main theme
+| |/  
+| * c6dfe0a1 : removed touch punch
+| * 2df34342 : Yoast SEO duplicate titles fix
+| * b5fe23d3 : Fix : Singup translation fix in login popup
+| * c4ddf145 : Course Review button hide when Reviews disabled.
+* |   dd21c5af : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 1a592828 : 2.2.2
+| * 84feb613 : cached files version update
+| * 5ff29bb5 : httpss check and fix in some reported cases
+| * 88812c2f : added vk in social icons
+| * eb00b8a9 : sign up was not translatable in popuplogin
+| * f23e2561 : Live search in Directories
+| * 978e6f12 : All course directory bug in Mobiles
+| * 26d83466 : New Featured block
+| * 6ce16b4d : Custom fixes
+| * 2a0f5e9b : Iframe request check for WPLMS S3 addon
+| * 3bc1e5b2 : General Featured block
+* |   93feaf61 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 03e99091 : Duplicate Slugs in Directories
+| * 219c862a : course nav walker string fix
+| * fd7392b2 : Course reviews fix when course directory permalink active
+| * c5e79e3c : doing ajax check @Buddydev
+| * 7f185466 : wplms_alladmins filter
+* |   0c3a4221 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * caff869d : Course class on course category redirect
+| * ece6ba71 : BuddyPress init object do not run for Course object
+| * b8da1ae8 : Light text color applied for quiz marks
+| * 2511e8fd : Notices fixed
+* |   7848c965 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 722c3c2e : BUF FIX: Module Tag fixed
+| * 4436129d : Header style fixes
+| * 39e68bee : 2.2
+| * 48e76f48 : welcome changes
+| * e98bcbed : Language Files
+| * 0cb4b986 : read more in translations for index.php
+| * e6a1ce7d : small image size in default header
+| * 1eb08ac5 : line height 1 for checkboxes
+| * 0fc02b37 : Grid li initial
+* |   46e23078 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 39b80140 : app style header fixes
+| * deb5c830 : Read more not in translation files in index.php
+| * 10d462c1 : z-index on fixed WooCommerce checkout bug fix
+| * 59d8eb8e : Back to course button added on single forums
+| * fd3c7562 : Customiser colors fix
+| * 4364351d : Sitelock fix
+| * 4450471a : Single activity view in transparent header bug
+| * 3e4e9980 : Directory course names in Uppercase fix
+| * ee3ef98c : customizer changes
+| * 0a1ed2f3 : Students currently taking this course heading removed
+* |   40f25954 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms into develop
+|\ \  
+| |/  
+| * 081a7f66 : knob.js fixes
+| * efa8df3e : page id in register and activation pages
+| * 1c6679cb : sitelock home url
+| * 28ffe42b : CSS/JS changes for mobile logo, member and course category carousel
+| * fa163400 : pre-populate upload type assignment
+| * cd7c9f18 : Search background in transparent header fix
+| * 730bb6fd : Use deprecated UI for buddypress
+| * 50a5ff6c : Customiser changes
+| * 4b0321f1 : Mobile logo feature
+| * 060b7a91 : removed nprogress.js
+| * 2b0b0ae0 : Start course page with page builder repeating twice issue
+| * 42dbe221 : do shortcode for taxonomy descriptions
+| * c2937fb9 : Site Lock new Homepage update
+| * bfe1884b : single unit fixes
+| * ad5d7c64 : style fixes for new buddydrive
+| * e567e755 : styling fixes
+| * ced21610 : Nav menu font size and family
+| * 65321426 : mega menu walker changes
+| * 175e7763 : notice removal on buddydrive
+| * 5cfb2f7a : margin bottom in featured image on course
+| * 009b6207 : directory grid css fixes
+| * 900112f0 : span font sizeajax results fix
+| * d9a8c787 : opactiy on loading submit button
+| * 2d7b9004 : My courses and Insturcting courses fix
+| * 32c54850 : Bradcrumbs last / design issue
+| * f9697390 : Member carousel CSS
+| * 026d2e56 : Force tabs to text align center on responsive mode
+| * 77950889 : Mega Menu width js fix
+| * 15a9710e : Pagination in MY courses
+| * d7655122 : Filter in course admin tabs
+| * aac5c424 : updated language for News section
+| * a4c14ffa : removed excerpt from course header 3
+| * 7416c2c4 : check isset action in buddydrive
+| * 7d54ec97 : search in instructing courses
+| * 51ada448 : my courses search fix
+| * e3b40ec8 : customiser menu - Font sizes for header and menu
+| * f4114ed5 : Instructing courses loop fix
+| * 59fcdcb4 : Warning fixes for theme customiser settings
+| * b167c0d3 : Mega Menu Width option and compatibility with Nav Menu roles plugin
+| * 547346b8 : favicon not displaying fix
+| * aded2728 : My courses fix
+| * fa34b363 : excerpt removed above description in c5
+| * cbac515a : checkbox line height fix
+| * e5f0c3a2 : scrolltop color fixed to white
+| * b3a70695 : Responsive mobile fixes
+| * a3a8fabc : minimal theme border fixes
+* |   f260115f : Merge branch 'develop' of https://bitbucket.org/wplms/wplms
+|\ \  
+| |/  
+| * 9c0e321d : customizer fixes
+| * b822268c : customiser fix for create course
+| * 1230ce55 : changelog
+| * 2831b088 : 2.1.1
+| * 40cd81b7 : Welcome changes
+| * 8a5a0ebb : Google Maps API key
+| * f2f23664 : fullwidth page builder block after stripe allignment issue.
+| * 02fdf5b2 : style fixes
+| * f337962c : background color from customizer
+| * 76950f8a : megadrop now with custom class
+| * 8c90a958 : linkage filter warning fix
+| * 07bdfc3c : mooc menu removed
+| * f0472cd7 : no header no footer page template for landing pages
+| * 0ef1d144 : New Category Posts and Category Sub category menus
+| * 4d000df1 : Front end image upload bug , Instructor access restricted with WP Admin access
+| * e9001ec6 : back to directory bug fix
+| * a6b0b01c : protocol removed in google apis
+| * 48500f4c : Fix for Locotranslate
+| * d39c407c : Template directory URL fix for Windows servers
+| * 6cd8da52 : blog directory layout
+| * bdb7733a : Remove versioning
+| * 7983caf1 : cutomiser bug fix
+| * bb3d741a : function exists check
+| * cabf4bf8 : Site creation fixes in multisite
+| * 4d0e8ac5 : check if badge actially exists.
+| * d81fe495 : https protocol detection in favicon
+| * 7857ee8e : center header and mobile fixes
+| * d450e715 : speed fixes
+| * b9cf675c : notices fixed
+* |   0d5d0937 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms
+|\ \  
+| |/  
+| * 0b7943ef : woocommerce template update
+* |   952254ad : Merge branch 'develop' of https://bitbucket.org/wplms/wplms
+|\ \  
+| |/  
+| * e9a22dae : styling fixes
+| * a8d9b4b9 : 2.1
+| * 010f0fdd : welcome changes
+| * fe27d86a : certificate code validation fix
+* |   ef71ce83 : Merge branch 'develop' of https://bitbucket.org/wplms/wplms
+|\ \  
+| |/  
+| * ba0c951d : c3 layout fixed
+| * 39173c82 : unit comments user link
+| * 526c4dd1 : Testing failed fixes 1
+| * 2efb97e9 : course activity assignment
+| * 090d7783 : pmpro connect fix
+| * a7738b26 : WooCommerce order item meta display
+| * 81a3969b : pmpro connect
+| * 31561ed7 : css fixes
+| * 3a379873 : %s in language files
+| * 2223fdb1 : registration login
+| * 1abc746f : unit comments css
+* | 817f09ea : Misssing %s in Submitted %s string in translated files fix
+|/  
+* 370192eb : styling bug fixes
+* 1f5ac01b : Certificate code validation fix
+* 86248642 : trigger inside the div block
+* 51b8dea8 : Customiser reset to Minimal mode fix
+* 4f9ba865 : Hide courses & Certificate code validation fixes
+* a1f5f0e1 : grassblade integration
+* fdb50c07 : left sidebar page header fix
+* f5935901 : Filter & list - box grid in mobile mode fix
+* 06e1dcd8 : translation files
+* 2d4b6c3a : get certificate function
+* c0fc63a6 : tabs fix
+* 08729e85 : bp_is_member to bp_is_user
+* beb25292 : bp social connected login screen button center allignment
+* c3211bb0 : register mini fixed height
+* 2625e925 : Yoast SEO fix
+* bbb7f6e9 : avoid unnecessary db calls
+* 6f9bd249 : Activity slug fix for revert activity
+* 6771dd5f : warning in course reivew template
+* 637134e7 : js fixes
+* 43b5b1b8 : style fixes
+* 971b68ff : assignment archives
+* f13121a0 : archive course fix
+* 8d25983b : all instructors template default field
+* 1bac5226 : Results template updated
+* e722ade2 : removed forgot password permalink redirection
+* 58ee7faa : 2.0.9.3
+* 0f729b84 : WooCommerce fix
+* 8814f371 : fixed warnings
+* 260aacf9 : 2.0.9.1
+* 9bee6273 : is_shop bug fix
+* 67371b16 : Course filters default order
+* daad870f : single course title margin top in c2,c3,c4 layouts
+* 1ef2faa8 : transparent header fixes
+* 5dfa4989 : Default order
+* 2527e450 : orderby of course categories
+* 6fbc6c27 : 2.0.9
+* 4163123f : Translation changes
+* d6f7cd2b : rtl fixes
+* c6abdc97 : styling fixes
+* 03e8309a : instructor filed group bug
+* dbb22c49 : welcome changes
+* ea1d0a73 : Single item view filter
+* 7a2639fa : instructor styling
+* 3001d8e1 : NEXT UNIT FLAG
+* d32a4ec6 : Use post class filter
+* 7c784dd4 : styling fixes
+* d3cc4eda : script changes
+* ef8ef61a : wplm curriculum copying fix
+* 282e220e : Youtube icon fix
+* 992ea725 : th in messages loop template
+* 8bd6a28b : Admin access hook changed
+* 315efb96 : bp_remove_quiz_questions function & unfinished unit bug fix
+* be0c06a8 : VX Design tabs and instructor privacy
+* 72ab5b94 : config version for js refresh
+* 1442e5bb : New FullWidth page template
+* ba1ccc1f : WooCommerce 2.6 chnages & h4 color
+* 2027ed45 : Social fied bug
+* 3c87019e : Social fied bug
+* 7e9fcdd3 : remove function exists to avoid duplicacy
+* c26c0df4 : Multi social fix
+* 22dde9d5 : Activity,Groups Directory access bug
+* d6dd24f7 : translation files
+* 2ef27962 : Welcome Changes
+* e115235b : 2.0.8
+* b44e2abc : Styling fixes
+* 222a9194 : RTL fixes
+* 7e632e31 : transparent header fixes
+* f57f4c9e : script fixes
+* 25d3512c : removed mix blen mode dependency
+* f9817919 : customiser fix
+* 9fada261 : Drip feed in non-ajax bug fix
+* 937be361 : Assiment date recorded fix.
+* 5ec24789 : Profile loop labels fix
+* af5aec14 : RSS fix for social fields WPLMS - Social
+* 7bdb966a : Empty forum check in units
+* 021c3373 : customiser fixes
+* ee567ebb : Course category default order
+* 7c49f43f : Unit tags in menu
+* ae270a74 : results in popup fix
+* e85a9cce : script fixes
+* 38b32fea : unclosed quote in blog2,3
+* 79ad9cdb : duplicate Excerpt bug fix
+* 711df5fe : login page translations
+* a473023a : extra div in notitle
+* 82f6098a : links in options panel
+* aed67b75 : single quiz layout change
+* ddcc9c0a : breadcrumbs bug fix
+* fc58febd : style fixes
+* 1f66b538 : buddydrive file content name break
+* 189b34f4 : select dropdown in mozilla
+* f6b58d04 : welcome changes
+* ccc8ac3f : footer li fixes
+* d9e8d628 : 2.0.7
+* 8da25f71 : sleek header action
+* 82b0cad4 : NAN remove from course stats
+* 71dd27be : more flag in front fix
+* e75178fe : rtl fixes
+* ff06a17e : styling fixes
+* bb4c9214 : styling fixes
+* d049b238 : function exists check missing
+* 9ca69573 : Comment approved should update rating count
+* 620609b8 : G3 layout bug
+* e6bdf6ae : 404 page on course home
+* ebca38e4 : bypass transparent header for modern theme
+* 8c2e6b44 : Styling bug fixes
+* 872b3087 : Directory d4,d5 fixes
+* 230e31d3 : section title padding removed.
+* de565717 : Fixing broken links
+* 4b761e27 : Directory fixes for IE
+* 74cf60e4 : 404 bug fix
+* e9015be6 : IE Edge changes
+* e7e58d88 : Remove woocommerce action end of shop page
+* 92508cb3 : customiser fixes
+* 68d29d22 : remove warnings when BuddyPress not used
+* 22b1dbdf : Remove unnecessary warnings
+* cc2b9ed1 : default category
+* 00419d6c : Remove skip woocommerce
+* 7a3fdeb5 : Unit duration should be displayed as unlimited if 9999 or more
+* 6127cda0 : Remove ### in Shop
+* c4323619 : bug fixes
+* 1ec8de97 : 2.0.6.1
+* 986c0bce : Welcome changes
+* 9e59539a : p3 profile layout issue
+* fbf619e2 : Translation files updated
+* 14db8cf1 : email template bug fix
+* bb31cd5c : Add to cart Button in minimal
+* e8ef2ec7 : WooCommerce activate check & Taxonomy filter WP Admin
+* ca1153cc : Vibe Posts widget title not saving
+* f8aa2029 : Disable FEE by default
+* d684a9e8 : Shop page Boxed bug
+* 55d0bff2 : Styling fixes
+* 6330f7b9 : Buddydrive activity button
+* c7c7c019 : Tabs bug fix
+* 36c6e4ab : RTL bug fixes
+* f87b0e5d : Minimal theme fixes
+* a9268728 : 404 page fix
+* e13c3936 : script fixes
+* 07da56a6 : Styling fixes
+* 89bfd446 : HEader/footer fixes
+* f090bebb : Show title only with default course layout
+* 26c61b13 : Course admin links
+* 3fbf4a00 : membership template update
+* 13cceb3e : WooCommerce and Pmpro check for enabled
+* d52234e8 : customiser changes
+* 285248e8 : WooCommerce my orders Edit address fix
+* 95812ef3 : Max students and Start date fix
+* 0979b6c8 : load css in LMS settings and Stats
+* 8739ca27 : Quiz sharing option
+* 7e595f92 : reload message with google fonts
+* 0331423f : Header footer changes in templates
+* 99cab1f8 : Before start course content hook
+* 6b06a1b7 : Transparent header fixes
+* bb7f1404 : Woocommerce after main hook
+* f904bd33 : Footer control missing
+* 0381e38f : comments to pick default comment settings
+* fc04af30 : Footer in contact page
+* db44e409 : Course Category images
+* 409f3e44 : Access_check bug fix in buddydrive
+* 6915d37d : Javascript bug fixes
+* 2e8cd74c : Styling bug fixes
+* 958155c8 : Customiser bug fixes
+* 424c4ed3 : Start date fix for continue course
+* e9a460dc : Add media enqueue in course cat
+* 91951cc6 : Footer in single unit and start course page
+* b268cf2d : Read more flag and Warning needle
+* f860e989 : directory bug in d3 Push pull classes
+* 33ce3939 : Transparent header fix on single default profile
+* 19cfde6b : 2.0.6
+* 05648a7f : Welcome page changes
+* e541cc44 : Header fix
+* e8d4ddf8 : bug fixes
+* 24cd676f : Sitelock and import fixes
+* 22f1c6c2 : header variations
+* 1055f745 : Buddydrive access
+* 85eddecc : After import buttons
+* a071fb03 : Styling bug fixes
+* 7cb0e60c : Transparent header in products
+* 4320b344 : styling fixes
+* 345b3f67 : Modern theme related fixes
+* 0a737ec1 : Header styling fixes
+* c4430f40 : Transparent ehader fixes
+* 01fcd131 : Buddydrive with custom types
+* 05103ebe : Customiser bug fixes
+* 60b8f8f4 : order details css
+* 2126a707 : Alternate logo
+* d7f653bc : select2 css fix
+* cc16e359 : empty forum check in single unit
+* afb94864 : Forgot password in modern login
+* 75cf6135 : Excerpts in Course front end
+* 6b32d9c2 : Group activity fix
+* 5f780204 : Mobile menu fixes
+* ed172ee4 : Style fixes
+* 14c1285b : Transparent header fixes
+* 2f6edf4c : customiser bug fixes
+* e6b24d81 : Excluded course fix for finished course
+* 17f312ec : Forgot password bug fix for site lock
+* 85731a5f : Title integration
+* 409fccb5 : Course Slug bug fix
+* 8f6df262 : Profile editor fields
+* b65f7b85 : Editor border missing bug
+* d01b969c : Drive slug not opening when Course permalink changed
+* 11676328 : woocommerce notificaiton
+* c3d3dc3c : Buddydrive access
+* a612e5e8 : trigger the filter request
+* 9217120d : Bug fixes
+* e68b1ccc : updated template
+* 2c0f7466 : styling bug fixes
+* e0936d4e : Unit comment time issue fixed
+* f35ae41a : version udpate
+* 58eefed4 : 2.0.2
+* a29da07d : Forgot password
+* 223b8c40 : Visual composer fix on course home
+* f6375956 : Star rating fixes
+* 385eb1ea : Style and script fixes
+* d7cdd238 : Style fixes
+* 545db048 : Drive fixes
+* 56c36c05 : Modern login style
+* 2e47d709 : Customizer fixes, price and link colors
+* 4c55e0c2 : custom excerpt functione xists check
+* c3fd2119 : Load template, revslider fix
+* f0b25707 : Mega menus not working
+* a2d171d8 : Gallery widget updated
+* 71e06a58 : Options panel buttons
+* 93441c99 : Modern Login style
+* 43ee91a2 : 2.0.1
+* e8e35ba4 : Include Child theme styling
+* d3f27121 : saperator removed
+* f4521a80 : Notices in Curriculum
+* 34c08fb4 : Close button in customiser
+* 219fe4c4 : Redirect to Course curriculum from Unit
+* fc9e49e9 : Back link in single unit
+* abbb1979 : RTL Fixes
+* 9ff6f5b2 : Style fixes
+* dd597043 : no template load for news
+* 8f8de65f : Free unit access to non-instructors
+* d2a01f13 : Buddydrive warning fix
+* 2870d03b : Warning fixes in customiser
+* bce4d3c4 : News breadcrumbs fix
+* 50b6b873 : Include script files in header
+* 7807be29 : Login page template fixed
+* dc7794e9 : Google Plus and Youtube icon fix
+* b5cd026d : Star ratings in WooCommerce issue
+* 14af949a : App header issue
+* 86a43ace : defaults included twice issue
+* 9ab6095f : Star rating issue in Author courses page
+* 999995f8 : Widget fixes
+* 7e68bc6a : star fixes
+* 566a4a7a : welcome changes
+* a99c8001 : About WPLMS welcome changes
+* 6c9519ac : Group cover
+* 7abe6925 : Course template bug fix
+* 0a2fbf6c : Groups bug fix
+* 3d9a9926 : Modern theme changes
+* d125fba8 : Remove unnecessary siotope calling
+* a9b1895a : Modern specific changes
+* b77c2f67 : facebook tumblr css fixes
+* da2f785b : style fixes
+* 526b233b : Certficate page template fix
+* 3c507bf7 : Modern theme CSS fixes
+* c7a6bde7 : bo course permalinks function exists check to avoid fatal error
+* 1328a8ba : cerfiticate bug fix
+* a37a5f29 : changelog
+* 62d390ca : Language files updated
+* 0d5bf9d4 : Unit duration fix
+*   fc5eed1f : Merge tag '2.0' into develop
+|\  
+| *   2caf1f38 : Merge branch 'release/2.0'
+| |\  
+| | * 2ce2da6e : footer css controlled by footer color in Customiser
+| | * 56814041 : bug fixes update
+| | * 5b459783 : Gallery shortcode fix
+| | * 32b8312c : Menu in mobile page bug fix
+| | * 3c1c0584 : Accurate notifications and message count
+| | * 121b835d : Added revolution slider
+| | * fbba4192 : Review metabox not appearing in admin panel
+| | * 4d68b2b5 : Oneclick setup not working bug fix
+| | * 12183ddf : __construct in widgets for 4.3.0 compatibility
+| | * 88c26cf1 : No title bug fixes for VC
+| | * a69067b4 : Fatal errors on clearn install removed
+| | * 8a3ec9b8 : Potential Security fixes
+| | * cfaecd6b : Default profile Avatar fix
+| | * c1da6b08 : security fixes
+| | * eda60ce3 : register scripts
+| | * 1a5de8fb : Font size but fix in features blocks
+| | * 5a100ffb : bug fixes
+| | * 53c61b57 : $classes redefined array bug
+| | * acbe0186 : Enqueue admin scripts only where needed
+| | * d8e7eb84 : modern theme fixes
+| | * e14fd842 : custmoiser fixes
+| | * be0fcf58 : version 2.0
+| | * 2f4c5df4 : bp member menu changes
+| | * 9a8d44f3 : Star rating fixes
+| | * f732d17d : bbpress changes
+| | * 382e92b9 : Sample data updated
+| | * d4c36c1b : Instructor dropdown not working in search query fix
+| | * af39c75c : skin files
+| | * 293cca41 : Style and script fixes
+| | * e56929b8 : Buddydrive fix
+| | * 50a41d61 : Customizer fixes
+| | * 94cffe02 : Unit comments and Fatal error avoid when plugins are outdated
+| | * 66d29f83 : Header footer location for Logo variations
+| | * 6d0543d1 : Compulsory rating fix on review
+| | * c31ec53f : Theme skin version added
+| | * b196b5cd : Alt Logo and Footer logo option added
+| | * d91af135 : WooCommerce 2.5 compatibility
+| | * 9b87c817 : Curriculum ends with section bug fix
+| | * 8c5f3148 : members loop fix
+| | * 8bee8126 : Certificate code fix
+| | * ca2bb9f3 : 2.0 bug fixes
+| | * ac609e3c : Login page and fixes
+| | * de005444 : Fatal error in init.php fix
+| | * 106583e0 : Styles finalised
+| | * f5718b8b : Bug fixes
+| | * 247177e5 : 0.68
+| | * 677578ee : heading styles and bug fixes
+| | * fa690cbc : 0.52
+| | * 0d6a2296 : 0.52
+| | * b22361fd : 0.50
+| | * 6b3351b1 : 0.50
+| | * 86006226 : 0.45
+| | * 66ab24f4 : config and styles updated
+| | * 1ca5914c : .4
+| | * 36da47e7 : Directory improvements
+| | * 4cf7db56 : 0.33
+| | * 262fe0dd : 0.35
+| | * 71047d00 : styling fixes
+| | *   66536bbc : Merge branch 'hotfix/Remove_quotes_in_comments'
+| | |\  
+| | | * cc87de42 : Remove double quote appearing in Single posts comment Heading
+| | |/  
+| | * cf78325e : assets folder
+| | * 85e39093 : Footer CSS fixes
+| | * 44a52d04 : default container style
+| | * 886e6295 : 0.40
+| | * f65d1bab : 0.35
+| | * 15b4f42a : 0.32
+| | * eb17a25e : 0.30
+| | * 75acacf4 : 0.25
+| | * 199a69ea : 0.23
+| | * 5043fc3c : 0.22
+| | * e31ab96e : 0.21
+| | * 93445340 : 0.15
+| | * 6b58f542 : 0.12
+| | * 60c5f0bc : 0.12
+| | * 3ddbf68f : 0.11
+| | * c4b8d81b : 0.9
+| | * eead6bce : 0.8
+| | * f9c26365 : 0.7
+| | * f8f71de1 : 0.7
+| | * ec59460b : Course action slugs
+| | * 35bd627c : 0.6
+| | * c9672a9d : 0.6
+| | * 4fb076f6 : 0.5
+| | * 03bc0c1b : 0.4
+| | * 23dc374c : 0.3
+| | * 98d19e8f : 0.2
+| | * 43ec8698 : 0.1
+| | * 58e3a1ff : init
+| |/  
+|/|   
+* | 2eec4b4f : Remove microdata
+* | 936631e6 : Blank submissions fix
+* | 36c45c9c : Remove unnecessary microdata
+* | 2c9acfee : Sort by start date
+* | ea99dd9c : Course Categories fix
+* | 42686f58 : WP 4.4 title fix
+* | 45e4bcfd : Randomise Quiz fix
+* | 5b9f4d29 : Admin bar and Admin access switch
+* | 53b4c1ac : Display filter in marked answers
+|/  
+* 491ccfcc : Trigger fix in rtl sites
+* dd12f6c1 : version1.9.9.1
+* 4d8d7a43 : blog create setting
+* 4dde4c03 : User cookie on login
+* b89fa6f0 : Disable woocommerce setup wizard
+* 901c061d : Instructor meta fix
+* 66f1cb0a : RTL fixes
+* e4ec2266 : Blogs page css
+* 8cdeb4f5 : Blogs page
+* f6b110c4 : version1.9.9
+* 954ce3a4 : options panel settings
+* 109bd488 : Location taxonomy and redirect trigger
+* a99093a4 : Welcome changes
+* 00164f70 : language file changes
+* 148b9fb7 : print customiser style
+* 6b10c8a1 : EventOn and eventon Addon in recommended plugins
+* 3d1968c1 : pre course check
+* 0d16fe76 : 0.9
+* a94552a4 : edit_course shortcode and vibe options
+* 48489ec2 : remove unnecessary start course action
+* 6764906b : welcome video filter
+* 0f34fa5a : add location to search
+* c8cb9e87 : retake count check filter
+* 7fa364cb : Results fix
+* fb7e3341 : language and js fixes
+* c849e76e : revamp register
+* 843e2905 : revamp init
+* 889072bc : human time diff fix
+* f9c858a7 : extras singleton class
+* e375f0ae : remove errorhandle
+* 7397dcf1 : version number
+* 6d01fc3b : Email template fix
+* 1b4c1740 : Star rating fix
+* 3df9f5cc : Create content update
+* cf81fd29 : Forum and Group check
+* 2b38bcb6 : Hook in Courses Stats
+* e36f65e3 : Visual composer as theme fix.
+* d6ffc382 : course progress fix on reset course
+* 5b902f12 : Notes and discussion no note/discussion available message
+* 99ddd65b : Non Logged in user check in notes and discussion
+* 09015cca : version1.9.8
+* f338018c : Welcome changes
+* 6c80b607 : Notes and discussion unit comment action
+* c11297bb : Timestamp Fix start course date
+* a449146c : Woocommerce Template update
+* 6b6e801a : Quiz passing score bug fix
+* 177d380a : Filter in single quizzes, option to sell quizzes
+* ea547144 : enqueu_script chosen-js in options panel
+* 17b7556d : Google Fronts space replaced by + bug fix
+* 2834d89e : Notes & Discussion styling and dom changes
+* aef96987 : Course Seats count, 0 check removed.
+* 9f0fc48a : Notes replies loading multiple times
+* 6c8f84a7 : Manual Course Submissions not appearing in Course - Admin - Submissions
+*   db7d1523 : Merge branch 'master' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * 15e7e2f1 : Notes and discussion hidden from non-logged in users
+* | ea712eb9 : Notes and discussion hidden from non-logged in users
+* | 3b2b5728 : Exists Check on Tab and Tooltip function
+|/  
+* a46512a0 : version1.9.7
+* 85078226 : Language files updated
+* e8c02cfc : Unit direct access fix with filter
+* 8e424c6d : language files updated
+* 382f3207 : Yoast SEO Title fix for Course directory
+* 3ae18a90 : Welcome changes
+* 3c2489a2 : Retakes class on retakes language
+* 65ad5021 : Hooks for Course Batches plugin
+* 2e801b7f : z-index fix in course pricing
+* b6e431cb : Pagination in course results
+* a56f6661 : Link changes from Forums to Support panel
+* 85768a3d : WPLMS Dashboard in Menu
+* a5051be3 : 1.9.7
+* 5f2a17dc : Quiz passing score bug fix
+* bcb223fa : Count membership ids fix
+* db5f782a : VC js fix
+* 882f158c : Google Fonts revamp
+* 876ced4b : RTL Bug fix
+* 3eaf3891 : Max students course renew bug fix
+*   6dbd5665 : Merge branch 'develop' of https://bitbucket.org/vibethemes/wplms into develop
+|\  
+| * 90ba6825 : Added submission meta
+* | 2189c3d0 : Added submission meta
+* | 96dfe175 : Timestamp and direct access to next page in units bug fix
+* | 088c811f : Course short description moved
+* | cd62da02 : Alter removed
+|/  
+* f212e082 : Timepassed bug fix
+* c74d73ed : Email template Warning on object
+* fc5d01a7 : Remove unused css
+*   54e0f506 : Merge branch 'master' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * 0032e347 : version1.9.6.2
+* | 7d424249 : version1.9.6.2
+|/  
+*   70804205 : Merge branch 'master' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * 6fb95797 : version update for home file
+* | 150c848f : version update for home file
+* | 1422b5c0 : textarea assignment bug fix
+|/  
+* 9d5d2660 : 1.9.6.1
+* 956f5d82 : Sharing display fatal error on blog posts
+* 38c80e2b : Changelog.txt
+* 5399697e : Welcome page changes
+* c61df33b : Bug fix for WP Logout
+* 12467de1 : Missing argument 2 bug fix in logout
+* 9fd29445 : Convert object to array on mail template
+* eb354414 : version1.9.6
+* 7445eb98 : Translation files updated
+* 475cf1df : Logout redirect to home page
+* 164688e0 : Style changes and bug fixes
+* 0d38529f : Free course pre-required course but on Auto subscribe off
+* 95750ae5 : Sync Student count feature
+* 317fe5a1 : Drip feed next unit bug
+* 3ee06044 : Remove template checks in units and questions
+* b0f894ff : assignment submission comment supports heading tags
+* 6fdad5de : register page sidebar
+* ac805176 : BuddyPress versioning
+* 1eeb47a6 : Unit and Question check
+* 8ebe10ea : CSS fixes
+* 3d1b44d5 : Remove Current course from pre required courses
+* ced15a68 : Get correct student count in admin section
+* c543136e : Assignment text area in WP Editor
+* f573f39e : Remove extra hook for submit course
+* b2953dd7 : View mail in new tab setting
+* 1dc92650 : Default Certificate Bug fix
+* 7e299f4f : Changes in options panel
+* 5c28e55a : Notifications and Messages updated for BP 2.3
+* c6b31a6a : Activity refactor
+* c29d35f7 : chosen js call
+* 09ccbdf1 : Private course button for PMPRo bug fix
+* 5856da15 : Parallax bug fix
+* bf936f62 : chosen minified
+* b4573b04 : BP 2.3 update
+* f5d796b7 : respond.min.js bug fix
+* b32a1a06 : action on course review submission
+* 3adc6802 : BBPress edit reply topic  bug fix
+* 5cc5a624 : CSS customizer changes
+* d4eda82c : Email template page
+* 59420245 : Default style for Select boxes
+* 11d6ee6d : improvements in buddypress
+* 35810888 : chosen minified css added
+* 9a9c5e82 : Course directory index page title not appearing bug fix
+*   6dab73e8 : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms into wplms
+|\  
+| * ed25673a : version1.9.5
+* | 24a9bd18 : version1.9.5
+|/  
+* aa3c6c2c : Welcome changes
+* b7ca0a14 : Members directory default order
+* 7d7d76c6 : Assignment Title and spelling correction in results page
+* 432397b4 : Forums template added
+* 4497c1d6 : Featured image in events
+* 5f2b7072 : Security key and Instructor status added
+* 70cc4ace : WooCommerce email without commission
+* dc857961 : Language files
+* 52f7fa7b : Password strength meter
+* a96ccc3b : BuddyPress widgets design change
+* 1c551666 : Filter on Course Categories widget
+* 78d9ab7d : Post type support for BP
+* e3822dc3 : Style changes
+* 846a911a : Style changes
+* 95dbdc04 : Theme customizer link fixes
+* 2b9e549d : Login status
+* cd5d61a5 : New features and Bug fixes in func.php
+* a2bfa6ac : Login dropdown css fix
+* f4a342ec : Filter on registration link
+* 5f75c395 : Groups create title bug
+* 43738e2d : Time filter in unit duration
+* c04320a1 : BBPress forum design integration
+* 38673a13 : version 1.9.4
+* 146aa2e7 : Welcome text
+* 6e2691d5 : Language update
+* 2a477ddc : Welcome changes
+* 26b8b605 : Create course auto remove default text
+* fa2fdf5d : Notes and discussion simple
+* 1bd00d6d : Certificate PDF
+* 3f01699c : Notes and discussion style
+* 94943ef9 : Unit classes
+* 5c0a8d55 : Filters for one click setup
+* 19cfbea0 : Condistional retakes
+* ccdc51c2 : Responsive parallax
+* 98be4ea1 : Multisite fixes
+* 995c7eb9 : Precourse check at take this course
+* 37aea083 : RTL Fixes
+* 0b41846c : Unit comments
+* 2232572c : Cart fixes
+* 52e8fdcf : WooCart default margin top
+* ae19fab6 : Unit comments
+* ac1d9c63 : Responsive course button
+* 6bf16c18 : Back to 3.0 bootstrap
+* 16585247 : Widget language change
+* 1e99e1a4 : fixes
+* 86fc730e : Admin fixes, permissions in single question
+* 14b9dd11 : More options for options panel sidebar exporter
+* 662b0e15 : Added filter to order appearance of courses.
+* 5ab8febe : esc_url in query arg
+* 2a18fb29 : Widgets/sidebar import/export
+* 479982a9 : Show correct answer flag
+* a86b4ae7 : Signup password suggestion
+* 597597e2 : jQuery UI Touch for drag and sort questions
+* 3ec034b4 : esc_url in add_query_args
+* 2b3c9387 : For static Background in Customizer changes
+* f5bf42fd : Course reset fixes and other small bug fixes
+* 77837469 : customiser fixes
+* 3180c9c3 : Woocommerce shopping cart mobile fixes
+* c7367ab6 : Registration page
+* a5927905 : RTL Fixes
+* 5d2a4f3b : Multiple Instructor course css fixes
+* 0f2bd950 : Old bootstrap file
+* d7a4278f : Bootstrap updated
+* 1e31af72 : Welcome changes
+* 5f014a57 : version1.9.3
+* 27366554 : Translation files
+* 40df8bd2 : Language changes
+* d7166c99 : Start page next quiz fix
+* 28441073 : BuddyPress text domain changed to Vibe
+* 7e9b9676 : Login screen custom CSS
+* 7c1a1597 : Social buttons in WooCommerce products
+* 009c5716 : ID column fixes in WP Admin
+* 42368c2b : customiser changes
+* c1cb9acb : various styling fixes
+* 37533a6d : Padding in unit timeline
+* 40a832cb : Assignment submitted notification
+* 39b35766 : tincan block in options panel
+* 0e411456 : Unit header call with course id
+* 30007c6f : More bug in single posts
+* 13c830a4 : Members only page
+* f5a8d31d : Posts select field with custom post type option
+* 92a054a6 : New Parallax effect
+* 2a55e172 : Hero button customiser colors
+* 2902ddfe : Notice removed
+* c205fff6 : Invalid certificate code translation
+* b5501fed : Review improvements
+* d191949b : Style changes
+* a02a655f : BuddyPress ajax bug fix
+* b037de78 : Show annoucements in Course
+* 462b2074 : Required plugins filter
+* a04c2279 : version 1.9.2.1
+* 616b236d : BuddyPress avatar issue
+* 1ed77888 : BuddyPress split js error
+* cb850217 : PMPro Fixes
+* 8fd24a71 : translation files
+* 8962e493 : Welcome changes
+* 5f9120da : Start page fixes for in course quiz
+* f4d399a5 : Removing menu objects which are not working
+* 6ee2e998 : version1.9.2
+* 3ceabe7e : Template existence check for third party integrations
+* 7aed2fbc : Welcome changes
+* 00c3dbc4 : Front end editor support for news
+* b6d813a8 : Woocommerce cart fixes
+* 1bc83a8f : Stats correction
+* 93d02a9c : hours time formatting in curriculum
+* 2985cf5b : itemscope added in product
+* b585bc6a : Invalid certificate code check
+* 569d0401 : Ninja forms fix
+* ce9e0508 : Added/Modified options panel
+* 5c5ef4ac : Back to create course button while editing unit
+* f820d2d9 : Quiz retake updated
+* b2782953 : Added inscroll page
+* e0f2b27d : Cusotm backend menu
+* 82dfdde1 : Funtion changes
+* 45c1e7dd : Customiser Changes
+* e8860907 : Quiz progress styling
+* 159d5bcc : Frendship button styling changes
+* 944139db : Preview unit/quiz in Course Creation
+* c46a4a67 : Course admin hooks
+* 910e13cc : BP Course item view
+* 7f7426d1 : Boxed Layout Fix
+* 499c0529 : Free membership bug in pmpro pages
+* fa7f9d91 : Number field in profile
+* 367e0a3e : Vibe Carousel widget fix
+* 359605b4 : parallax top fix
+* f50725fe : index to look like blog page
+* 3ed687d3 : Layerslider update override
+* 6f4d7a45 : blp_is_blog_page function exists function
+* 973f6180 : Price color in customizer
+* 9a837760 : Content price CSS fix
+* 9ab8dae5 : Profile fields in mobile layout
+* 13a96c37 : Spacing in Events title
+* d67b6c3b : Course item functions defined.
+* ec8f2d01 : FIXED : Title on BP Directory pages
+* 4a0e1110 : Welcome page changes
+* 1ce93048 : Pmpro renew course membership fix
+* 2335ef75 : version1.9.1
+* 4884a16f : Language files updated
+* 267fcad5 : WPML config file
+* 207a69fa : Prev next product links removed from single product
+* 630da8ee : Default course avatar setting added
+* 0762bd25 : Full width template added for single post
+* 8e341129 : Assignment appearance improved
+* e2a03878 : Single attachment template removed
+* f7c3e9de : Is_array bug in Student Stats
+* 65d3f7ac : Vibe Carousel widget fixed
+* 8e16cadf : tab index fix on login widget
+* 928b8519 : WP SEO titles for BuddyPress fix, EP_Authors fix, import data vulnerability fix, course time parameter fix
+* c99cadff : WooCommerce deleted amount widget fix
+* b4939e2a : CSS Fixes
+* ae8b45b9 : Package upload controls
+* f6c6d75a : Modify/Delete in Course editing
+* fccb371a : Assignment Upload design change
+* f32fb79f : Css stylings
+* 3018e07e : Unit Start date time
+* 427663fe : Bug fixes
+* 0e6e222c : version update
+* e69253f8 : Unit comments enable optional.
+* fa2825d1 : Course stats bug fix
+* 4ad2d216 : Load course categories in alphabetical order on create course page
+* 761b3fb2 : Contact Page bug fix
+* 8411e894 : Welcome changes
+* 6a80de14 : Welcome changes
+* 9496df3e : version1.9
+* 0479da94 : Translation files updated
+* c47b93b1 : Cookie clear on Retake course
+* e6c18d76 : Fixes
+* a21560af : Course Retake
+* 7f0e7d31 : Fixes
+* f453569e : Language files updated
+* 9be17918 : Translation fixes
+* 903b3a28 : Pagination in next page units
+* 8e038b46 : BuddyPress profile sidebar fix
+* 7fb4bc58 : Class title
+* 6314c2f4 : Settings in Logged in menu
+* c1f74117 : Duplicate function check.
+* ee005060 : Translation bug fix
+* 329e87ca : Course time class added on course time
+* 811dcf32 : Social sharing links issue
+* b62e70c0 : Customizer fixes
+* 1aa3545a : Archive centralisation
+* 09813e57 : Translation bug fixes
+* d21b3d1e : Posts widget CSS fixes
+* ac60bcec : version1.8.4.1
+* 3d69e340 : Default value for social links
+* 7d3758c7 : GEt permalink fix
+* f088e13c : Language fix
+* dc70cabb : LS Plugin base fix
+* 81c2b901 : Style fixes
+* 4760ec19 : Link color fix
+* ff5ff614 : Social icons fix
+* 17923290 : Curriculum heading fix
+* 6478c6f8 : Post permalink fix
+* c01c77a9 : Previous version compatibility fixes
+* 35ce3299 : version1.8.4
+* 6ec7f52d : Start page template fixes for new Course statuses
+* 5c8dcf63 : Welcome File fixes
+* 6f64a865 : Translation files Updated
+* 2cc355da : CSS Fixes
+* 34bb50bc : Removed Spaces from Strings
+* 7a27cae7 : Register scripts fixes
+* b35e7b07 : Footer BuddyPress Members Groups widget fix
+* a8c59a24 : Welcome file changes
+* f566bc78 : Label changes for notes
+* 18bc447d : Field multi select warning
+* 30cb7741 : Course stats bug in dashboard
+* a746b013 : Notes & Discussions replies functionality
+* f3c85eaa : Social sharing open function
+* 031d8b47 : Customizer changes for Notes & Discussions
+* 7b343de9 : Remove instructor specific field group fomr profile settings for students.
+* 27ff94eb : Remove the create a course title link on click.
+* c35a0830 : Course header duplicate link fix
+* ca2e50aa : All instructors page fix.
+* b517cc38 : Unit Comments Reply to instructor module
+* d342308b : Notes & Discussion Merge
+* b2ef2f95 : Options panel switch for unit comments
+* b600d08d : Unit comment CSS classie effect.
+* c1914583 : Notes & Discussion template
+* ffb15788 : Notes & Discussion class
+* 62d72211 : Unit Notes styling
+* 9b970ed9 : Load style change
+* fdf1a063 : FIXED : Taxonomy sidebar bug
+* f342c5f5 : Unit comments support
+* 31467265 : Javascript functions for Filters
+* 0819aa86 : Reduced jQuery loading
+* ea5624da : Style fixes
+* 3f8ae8d7 : Edited help text for Course auto evaluation
+* 5c89340e : FIXED:  Course style in author page
+* f5470073 : Last minute Welcome changes
+* 467b3993 : v1.8.3
+* 28caa9ea : Updated : Welcome Text
+* 8d3b6d0d : Added : Course Specific instructions
+* 26580cc3 : Fixes for News
+* 36302c0e : ADDED : Instructing courses slug
+* a9423ab4 : Enabled Course Stats slug
+* bfc33d38 : FIXED : Audio/Video loading issue in Quiz
+* f54f0747 : Fixed : Stats link in logged in dropdown
+* c4b683f2 : FIXED: Language changes
+* 788d2d22 : ADDED : Course News section
+* 2a625ae8 : Fixed : Instructing courses fix
+* a0ff8a2e : Updated : Language files
+* e85c9a9d : Create content changes
+* 914aa9e4 : version update
+* abb4558d : Number in options panel
+* f75863ec : MyProfile check on Profile view
+* 853f4ebd : TinCan v 1.0 fix
+* ff08f8a1 : Course Search Fix
+* a443335f : Customizer Fixes
+* 5cef0e4c : Added levels in Create course front end
+* 9e4f6f24 : Author course endpoint
+* 04ebee15 : Added Number type in options panel
+* 58d0c282 : WP Caching fixes
+* c77bf6ab : FIXED : Pricing CSS consistency
+* a3ea8d71 : Cached Block check
+* 1f615b2f : Caching in course loop
+* 05c9e436 : Post small fix in firefox
+* 33c85972 : Added dynamic cache duration
+* 1d970484 : Added Caching
+* 7d496205 : Updated TGM Bulk installer
+* f3a2299f : FIXED : WordPress Author Course
+* 7db461c3 : FIXED : WooCommerce star rating issues
+* 4242a7ff : FIXED : Link color in logout
+* 5c15c716 : ADDED : Schema in Breadcrumbs
+* 89291c3e : FIXED : Tincan Statements
+* 493fd170 : ADDED : Course specific instructions
+* 8b2430cf : ADDED Alternate sample data
+* d0aac525 : Translation files updated
+* 67a94681 : delete ds_store files
+* e5b47c6c : version1.8.2
+* 52e4d862 : welcome file changes
+* 1ee346f0 : version 1.8.2
+* d104ed5d : Language files updated
+* 57ce9de4 : FIXED : Start/Continue Links in Course featured block
+* 22f6d2a6 : FIXED : RTL Fixes
+* 0f3031c0 : FIXED : Button alignments in buddy press pages
+* df9a9b2e : FIXED : Curriculum time in different view ports
+* e5c4cf66 : ADDED : Load more in activity
+* 4b999772 : FIXED : Hidden courses in course by Instructor
+* 8f99f457 : custom fonts tutorial
+* 59f0674a : Ajax loader in Start course page
+* b8e43b88 : PMPro edit/change password removed
+* 8b207f20 : Stats count fix
+* 355b514e : Woocommerce direct checkout conditional redirect
+* 57313bf2 : unit links added in customiser
+* a80dea98 : Remove checkout bar from config customiser
+* 2800506b : CSS fixes
+* 2715a530 : Mentions fix in post form
+* fe100c0e : activity fix
+* 78fe51e6 : 1.8.2 messages
+* 3f251d0d : Stats changes
+* f6165e8b : Leader Board and Stats Visibility
+* 3cc11c9e : 1.8.1.1 changes
+* 61c489ad : Quiz/Assignment/Question Stats
+* d182e363 : No curriculum no stats fix
+*   8c387e29 : Taking out Plugins to lower the merge size
+|\  
+| * b7d61f2d : Language files
+* | 85cf6fea : Language files
+|/  
+* 2dee5be2 : WPAdmin bar fix
+* 68328c1d : Adding Levels and Linkage in LMS Menu
+* a63e43fe : Disabling third party notifications
+* 3cebcdcf : custom changes
+* 51b57041 : added action header top login
+* b7a4b107 : Code merge extras.php
+* 2b7c184c : CSS Fixes
+* 064b5862 : Hook in Create content for MyCred
+* 5d5da39c : Changing version of templates
+* 431a387e : duplicate instructors
+* 8fc232f6 : stats panel
+* 73060c0f : Force deactivation of premium plugins
+* f62bcf4f : Remove outdated files
+* 438617c9 : Show all testimonials in widget
+* db77ec30 : Language update
+* 78c35a79 : mins = 0 fix
+* e65b33c2 : Private courses disabled by default
+* be82ab23 : Fixed : Star rating in Product pages
+* 6b670419 : Plugin activation updated
+* 42dccf41 : version1.8.1
+* 3e9d3448 : Template versions
+* 6b837e8d : Updated : Translation files
+* 82822788 : Certifications carousel and Badge popup
+* 05959024 : Custom CSS fix
+* 448098d0 : MAX Students error message
+* ad6fbaa2 : Mobile Menu now supports Level dropdowns
+* 33e668cd : WooCommerce and Mobile fixes
+* 73418f9c : Removed Advanced Layer filter widgets
+* b19ab857 : Updated languages
+* 4d1c36bd : Sample data ajax call
+* ff111890 : RTL Fixes
+* 31800d07 : BP & BB CSS changes
+* abb742de : Added : Nprogress.css in bootstrap
+* ad0e6f97 : ADDED : One click setup
+* cd2ff04f : FIXED : Loop variables
+* 6d23c317 : Removed Minified option
+* 06ff9f5d : Translation fix
+* d0f9cbf9 : ADDED  : Sidebar Selection in options panel
+* d0afd29d : Fixed : Default Title and Breadcrumbs appearance
+* 25c9de51 : Free Unit course link when directly viewing
+* ee6124ff : Improved popups
+* f6098205 : ADDED More tag to support read more
+* 4ef825ab : FIXED : Sidebar issue and removed magnification
+* 91d451d6 : ADDED Template version
+* 554d5cf6 : FIXED : Sidebar bug in BuddyPress pages
+* 408db7e1 : Added sidebar in checkout template
+* dae6b9c3 : Clean up
+* db730778 : version1.8
+* f57cc5ed : Force activation/deactivation removed from not-required plugins
+* f7415da4 : BuddyPress.js moved out of minified scripts
+* 94303813 : Language Update
+* 03ea9b9e : Spelling fixes
+* 6fb4e513 : Fixes for BuddyPress updates
+* dbe0ca5b : Added filter for custom Order by in Instructors courses page
+* 573d0c81 : Added New certificate validation code
+* acba38c3 : Removed old checkout code.
+* b122d99c : ADDED Hook in curriculum page
+* bc0d7e08 : Fixed Stats calculation
+* 080fc83b : Front end Course creation fixes
+* 96b5b8cf : Several Styling fixes
+* 0e2a4b32 : CSS Fixes in Logo
+* ca74f53d : Start Date in courses fixed
+* 5483e4bc : Post formats and Force deactivation on plugins removed
+* 85263c16 : BuddyPress update fixes
+* bec1bba2 : Filter in login menu
+* 978a6ab0 : FIXED : Parallax background
+* 4c60fe02 : Results Fixes
+* e8ede5c8 : ADDED : Dashboard Template
+* 402240f1 : Added : Instructors only Page template
+* 2545df7b : Fixed : Take this course next unit fix
+* fbef1507 : Instructor extend subscription fix
+* becca730 : Language fixes
+* 104ebea3 : Translation update
+* 3bcae32d : version1.7.5
+* b17b6951 : List Style changes
+* 2a42cdbd : Removed Thanks you page template
+* b9b4fe66 : FIXED : BOXED CSS FIXES
+* 2b5ab3ec : CSS FIXES
+* f61b01d3 : FIXED : Widget img hover color from customizer
+* d61c64d5 : FIXED : Search Instructor courses with CoAuthors
+* 23fa5005 : ADDED : Pinterest for sharing
+* ebbd9d81 : ADDED : Adjust in Parallax
+* 9ec42c20 : FIXED : Group Invite warning
+* 0b2017e9 : FIXED : Search Fixes
+* 17c3fb41 : FIXED : Return to course SLUG bug
+* bc4a5523 : REMOVED : Step Checkout
+* 94b9e5d1 : ADDED : Validate Certificate action.
+* 755d83bc : Checkout Fixes
+* 51dfd391 : Form Pay Fix
+* 8fa04189 : FIXES for WP FEE 1.0
+* 33ba13cb : FIXED : ADD New Category placement
+* 7cade1f0 : UPDATED : Layerslider file
+* 4c45869f : FIXED : WP FEE 1.0
+* 7e206dfc : FIXED : Course from adde din language files
+* 4934ed7d : BruteForce Protect fix
+* 6dbd3be9 : Language files
+* 5fdd60c4 : FIXED : Potential security issue in WordPRess
+* af922686 : version1.7.4
+* deb1217c : Styling for input search box
+* 3b39669c : FIXED :Print bug in minified scripts
+* b158fc39 : Translation fixes
+* ffce0a84 : ADDED : Hook for eCommerce and memberships plugins
+* a34e9215 : FIXED : Radio button appearance in registration pages
+* 39febefa : ADDED : Hide courses feature
+* dfa80dd0 : UPDATED: Minified file
+* f2f41f70 : FIXED: Checkout Step 3 bug
+* e7412542 : ADDED : Hide Course from directory feature
+* 295e231a : FIXED : Language, bottom footer background color
+* a33faa70 : FIXED: Menu TRIGGER Fix on tablet mode
+* a33ce13b : RTL Fixes on Stats widget
+* 7d4a34ac : version1.7.3
+* 279d4cff : Updated : language files
+* 210a9370 : ADDED : Course Display parameter set form options panel
+* 7d370465 : FIXED : Quiz results appear in poup
+* 68d14fa2 : FIXED : Back to course instead of course name
+* 03ea946d : UPDATED : Course submission activity
+* 39204934 : ADDED hook, bp_before_course_Stats
+* 70a9ae91 : FIXED : Previous results trigger "on" added
+* 7eef6e3f : FIXED : Warning message in quiz
+* dff6b119 : FIXED : Quiz Bar background color
+* 2f0909f6 : FIXED : Magnific popup cSS aded in minified script
+* 78e2d86f : GRID Margin fixes
+* 77f14d81 : FIXED : Boxed Layout fixes
+* e771814d : FIXED : Panel CSS removed from Bootstrap for account fix
+* 09c5801d : ADDED : Search in course admin
+* 57eab7a2 : FIXED : Checkout Step 3 Coupon fix
+* e767b608 : FIXED: Certificate template issue
+* f6468f68 : FIXED : Out of 100 translation
+* bf8cc993 : Checkout bug for logged in users
+* 371a1a41 : FIXED : RTL Fixes
+* 73a93185 : UPDATED : Language files
+* 92ad1fd1 : version1.7.2
+* 50265ab3 : ADDED : Color on Correct/Incorrect answers in quiz results
+* 5da686c6 : UPDATED : Language files
+*   49977517 : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * c2d27fd3 : Updated : Language files
+* | 14f2dad8 : FIXED : CSS issues
+* | 6a2fa3f2 : UPDATED : Template files
+* | 489c565c : FIXED : MediaPlayer issue in minified scripts
+* | 9992590b : ADDED : Quiz Random & WooCommerce  Skip product, go to Cart fix
+* | da1f0c4c : ADDED : Minified scripts
+* | c3f06d3d : ADDED : Validation in WooCommerce  Step checkout
+* | 61390612 : UPDATED : Minified jQuery Cookie script
+* | 55911787 : ADDED : Inbuilt Minified scripts
+* | 6e9ed4a2 : UPDATED : Back to Course button after Quiz completion takes user to the course.
+* | febe09b7 : ADDED : Single Member Profile view Privacy option
+* | dd9476ee : COMMENTS FOR : WooCommerce Checkout Pincode Bug fix
+* | b22adb5e : FIXED : Phrase changed "not subscribed to any courses"
+* | dce7b8d0 : FIXED : Border in Members directory
+* | 54b9bf8b : FIXED:  Course percentage hook for grading
+* | d01e3f8a : ADDED : BadeOS hooks
+* | 026b49d0 : Updated : Language files
+* | 5776e473 : FIXED : Removed commented link in sidebareffects.js
+* | cbe825f9 : FIXED : Vibe Posts not working issue
+* | add934c9 : FIXED : Default sort filter ajax calls
+* | 0ef715f1 : FIXED : Config not reading issue on IIS servers
+* | a9158c4b : FIXED : Current menu item hover color
+* | abbb9cb5 : ADDED : Minified CSS, JS
+* | d830db9b : FIXED : Blog view in iPad
+* | e0774487 : FIXED : Select boxes cut issue
+* | 756b2f22 : FIXED : Instructor course CSS Fix
+* | ee28c0bd : FIXED: Show pricing for WooCommerce & Pmpro both
+* | c8cbfec6 : FIX : Template modification in bp_course_instructor function
+* | 3240f3e6 : FIXED : Blog date with 0 for single letter date
+* | ea19be57 : UPDATED: Language files
+* | 7ee99fe1 : FIXED : CoAuthor plus integration
+* | 45f7c390 : ADDED : Minified scripts option
+* | c1698eb7 : Updated : Language files
+|/  
+* 75ed45ac : version1.7.1
+* 06e3a1a9 : FIXED : Warning message on pmpro subscriptions
+* a2e5a68d : ADDED : Role class in Members directory. Use this class to give styling in directory.
+* d096aa2f : FIXED : Load Results slug constants and Stats slug constants for loading results and stats template
+* 6c2c4404 : FIXED : Sort and Match answer type auto evaluation
+* 382bdf05 : FIXED : Expired course stats issue
+* 82212a44 : FIXED : Number field in Registration forum
+* df8ff3d3 : FIXED : Parallax issue in Page builder
+* 09667674 : ADDED : New language file gl_GR
+* 2d14730e : FIXED : Course stats location in Login widget
+* bf07a239 : FIXED : Delete notification/messages
+* 4c7aa85f : ADDED : Font Manager Google fonts subsets
+* d22e2980 : FIXED : Removed Pincode Required, waiting for WooCommerce to fix the issue.
+* d6861c80 : ADDED : Link color in Theme customizer
+* 95f8a1dd : ADDED : Notification "dot" in header top for unread notifications.
+* e1fdd271 : Fixed : WooCommerce alt button force color
+* 88f3064f : FIXED : Form fields in Footer fixes
+* 1950f98e : BuddyPress error message display
+* 70a7f219 : FIXED : Course Badge issue
+* 8836d9a1 : ADDED : Grid view in course
+* 8cdb30ae : FIXED : Delete messages bug in BuddyPress messages
+* d4dc609c : version 1.7
+* 90de144c : UPDATED : Language files
+* 75e66ce8 : ADDED : TinCan Support
+* cf91f058 : FIXED : Sidebar issues
+* 04a1775e : FIXED : Course instructor on Start Course page
+* 87edfb06 : FIXED : Read more added in translation file in tag archive
+* fb2320a5 : ADDED : Option of external LRS
+* e2a7e876 : ADDED : In date in single blog post
+* 8f9eaa73 : ADDED : Articulate XAPI support
+* a1f5846a : FIXED : Site url warning
+* 083010d5 : FIXED:  Default avatar
+* 19b4dfa7 : ADDED : TinCan API support
+* 396bfb52 : FIXED: WooCommerce star rating issue
+* dfdc2faf : FIXED : CSS fixes for indate
+* 327ed51c : ADDED : Edit course in Admin panel link in edit course from front end
+* f3ea7a3a : ADDED : Year in Date in archive
+* b1f5d2ec : ADDED : Date in Blog page
+* 4aa0958e : FIXED:  All instructors page 's' bug
+* b5281399 : version1.6.5 : Updated language files
+* ca1cb084 : UPDATED : Duration parameter for assignments
+* 841e0ca6 : UPDATED : Duration parameter in Course Product subscription
+* ebe826d2 : UPDATED : Image sizes in Media manager
+* ec302bed : ADDED : Duration filter for Drip feeds and Courses
+* c0d200d5 : ADDED : Duration filters in Create content template
+* 2cdbfa83 : FIXED : Unmarked questions bug in quiz auto evalute
+* fb1d09ef : FIXED : Custom slugs in theme
+* e6e2319f : FIXED : CSS issue in WP Media popup in front end
+* e9136acb : ADDED : SLUGS contants
+* 4fe388d6 : ADDED : Multiple assignments
+* dfccf6ba : FIXED : Exclude ids issue
+* 42f2c82c : ADDED : Level in search
+* 7eab6adb : ADDED : Level taxonomy
+* 817b5a87 : version1.6.4
+* 96935ef8 : UPDATED : Language files
+* 6a62cb93 : ADDED : Finished course access option
+* e4308ef5 : FIXED : Print Quiz results provision
+* ca246f46 : ADDED : Language files no_NO
+* 1b417fc7 : FIXED : Hook for dynamic quiz
+* 2c351b3d : FIXED : Dynamic quiz provision in quiz results
+* 0ece806a : FIXED : Tab index value in login widget
+* 7f8291a8 : FIXED : Protocol added for RTL Bootstrap
+* 22a0d12e : FIXED : Unlimited time in Course curriculum for quiz/units
+* 66629ef6 : FIXED : Pagination colors in Theme customizer
+* 7e46118c : FIXED : Subtitle now has h5
+* 73fda3ff : FIXED : RTL Fixes
+* 7d149d9b : FIXED: Pricing display when men ship enabled
+* b73bd21a : ADDED : Help Tags in Course creation
+* b8314c25 : ADDED : Default Order for courses in Course directory
+* 1f8022b6 : UPDATED : Question answers
+* 02e4da21 : ADDED : Select from Dropdown Question type
+* 7e3db98c : ADDED : Match Answers Question type
+* 2413e45d : ADDED : Fill in the Blank Question type
+* 37b83d57 : ADDED : Provision to hide Administrators from All Instructors page
+* ac74ee5a : FIXED : H5 tag now in subtitle function
+* 0478cb0a : FIXED : Added access for finished students
+*   1cbd82a3 : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * 5e3fc95a : version 1.6.3
+* | 1c3aa666 : FIXED : Linkage and Course online offline tip in Create Course from front end.
+* | 11e63865 : Fixed : WP DEBUG WARNING in func.php
+* | e218200f : FIXED:  Fatal error in sidebar of unit and assignment
+* | 41bde36c : FIXED : No title issue when importing loads of posts.
+* | d7d3b876 : ADDED : Turkish language
+* | f17194d7 : FIXED : Protocol issue in contact page
+* | 393af915 : FIXED : Color of text in bio field
+* | 1c8d4edd : FIXED : Dynamic sidebars on pages
+* | da5d86df : FIXED: Currency warning in Post widget
+* | bb7fcbf9 : FIXED : Sidebar issue
+* | a3f97cde : version 1.6.3
+|/  
+* d2f2eb02 : ADDED : Draft status for courses in draft
+* 0a4814b7 : FIXED : RTL Changes
+* c73a98bb : FIXED : Division by 0 error when no units in course
+* b1d4cb77 : FIXED: Ratings in course comment editing
+* a472e3fa : ADDED : RTL Bootstrap
+* 5d402ffa : FIXED:  Description in options panel for Take this course page.
+* bee2d70d : REMOVED : Tour.php from functions
+* a4b61e67 : FIXED : Front end editing for BBPress
+* e98d8c21 : Removed : Duplicate CSS Loading for poups
+* c31c712e : ADDED : Forgot password in Login widget
+* 6779d14a : ADDED : Random testimonial in Testimonial widget
+* 9cf16ed7 : FIXED : Visibility parameter in registration page, translation issue.
+* 3ab1fb61 : FIXED: Front end unit controls now on editing unit from front end.
+* def35288 : FIXED : Grid image issues
+* 7be00277 : FIXED : Changed Text in Course Start time in Course button.
+* d0731459 : FIXED : Primary Background color of arrows in Carousel widget
+* c85ce9b2 : FIXED : Shortcode execution in Footer Copyright text
+* b544dfe0 : ADDED : Google Plus icon
+* d8685c56 : ADDED : Edit Link for Units , Quizzes in Course curriculum in Front end course creation
+* 8325179f : UPDATED : Filter to open unit in popup
+* c45edaf4 : FIXED : Administrators included in All instructors page.
+* 69845e17 : Fixed : Instructor button
+* 9148f90d : Updated : Js composer
+* c910e41f : FIXED : Default post title and brad crumbs
+* 7f59e25c : version 1.6.2
+* 126b3ca5 : Updated  : Language files
+* 26a7ae5f : FIXED : Extra arrow in Member setting capabilities
+* 4e35e16f : FIXED : Language in quiz retakes
+* 18f01cb7 : ADDED : Filter for Time display in course curriculum
+* 23431373 : ADDED : Front end Linkage
+* cd7d45b1 : FIXED: Checkout steps font size changed from Body font size
+* f355dec4 : FIXED: Hover border on images in widgets
+* 537cbc66 : FIXED : Quiz unlimited time in course curriculum
+* c2161b76 : FIXED : Registration page CSS fixes
+* 2eb29c51 : FIXED : xProfile check throughout the theme
+* b9780a11 : ADDED : Linkage
+* 8ba6d861 : FIXED : De register WooCommerce checkout script, breaking Checkout, by removing the Zip code field.
+* fe358e23 : FIXED : Assignment enabled for instructor and administrator
+* f08b7fba : ADDED : Brazilian translation files
+* 20b4b51a : ADDED : Course Seats and Maximum students in course filter
+* 450929be : REMOVED : Instagram widget
+* 7650f8ec : ADDED : CSS for Cart totals in Shopping cart
+* bbeae9a1 : FIXED : CSS in course button
+* 8d387782 : FIXED : CSS Bug in BuddyPress profile fields
+* bebbbce6 : ADDED : Course Start date and number of seats in course
+* 0523319d : FIXED : Radio button appearance in Registration page
+* c2e8d69a : ADDED : Brazilian translation files
+* 79c71549 : FIXED : Translation fixes in  Stats
+* 292af197 : ADDED : Youtube and Vimeo social icons in options panel
+* a8f4ab8c : ADDED : Body font family in theme Customizer
+* fa856288 : FIXED : Vibe Grid inside Content area styling issue
+* 8e87c680 : version 1.6.1
+* 73a8fd66 : FIXED : Logo url issue
+* e67b5c41 : FIXED : Warning in course stats when curriculum not set
+* 5bdb4aae : FIXED : Fatal error in assignments
+* 467b8d0f : FIXED : Hide Invite button for students in paid events
+* 8839fdb1 : FIXED : Restrict Student activity hook
+* a68f3930 : Fixed : Footer logo issue
+* f33fda87 : FIXED : Header logo issue
+* d9927f13 : FIXED: Single activity entry comments css
+* 5a32a886 : FIXED : Warning in submissions due to curriculum not being set
+* f8fec402 : FIXED: Single Course activity bug
+* ec5f7eed : ADDED : Activity hook, wplms_activity_loop
+*   67b7a775 : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * 402a7707 : version 1.6
+* | 3e447ef9 : version 1.6
+|/  
+* e19bcef6 : UPDATED : Create Course Content Template
+* bc28ed75 : FIXED : Image Align center
+* bd4a22a1 : FIXED: WooCommerce zipcode bug
+* 66a41d9d : UPDATED : Language files [US,DE,PL,IT,ES,FR,RU]
+* f999b0a4 : FIXED : WooCommerce checkout login bug
+* d8396325 : ADDED : Front end course editing
+* 3caf8a3c : ADDED : Create a Course from Front END
+* 04c6da3f : FIXED : WooCommerce error in checkout page hide on click
+* ebedc37b : ADDED : Sharing in blog posts
+* 4ed1f3bf : ADDED : Hooks for Front end course creation
+* 01912e4a : ADDED : None option for Become an Instructor Page
+* 593f038a : ADDED : German Language files
+* 063af585 : UPDATED : Vibe Tabs widget with courses 3rd tab
+* 6b5bfc0a : ADDED : Certificate code validator widget
+* 05771e92 : ADDED : Google plus sharing option
+* 3e5b985a : UPDATED: Remove admin bar only for Instructors
+* ff499c38 : FIXED : Course Progress bar boundary conditions
+* 55823c20 : FIXED : BBPress footer paragraph css
+* 63c54c05 : FIXED : Reviews
+* 3fd5ac08 : UPDATED : WooCommerce Checkout
+* 5d180969 : ADDED : Front end Course Creation
+* 47028f66 : FIXED : Print notices for non-logged in users
+* 01b09f9f : ADDED : Filter in for unit access flag
+* 71bcb1dd : Added : Added French Translation files
+* 634a8b38 : UPDATED : Disabled Force activation for BBPress, BuddyPress
+* abca01c5 : UPDATED : Refactored Instructor privacy code
+* 9759f67a : FIXED : Badges images in FQDN
+* 74c6ae49 : FIXED : WooCommerce Products widget
+* 87829526 : FIXED : BBPress TINYMCE addon styling
+* 0d0d48fa : FIXED : Hours bug in curriculum
+* c777e395 : Create content template
+* a9ad9cee : NEW : Logo filters
+* d4c93943 : FIXED : Current Active Menu item  color from Theme Customizer
+* 903e53b7 : FIX : HTTPS Fix for Logo image
+* 6585e9b3 : version 1.5.5
+* 4f4d84b8 : UPDATED : Translation files
+* 69f30246 : ADDED : Ninja form ID for Instructor signup in options panel
+* 2fc19656 : ADDED: Private Event hook for Event Thumbnail card
+* 742cc15e : FIXED : Instructor Privacy in units not for Admin
+* c0d70a64 : FIXED : Boundary condition with quiz question have no marks
+* 517feec1 : ADDED : PRIVATE AND PAID Events
+* caa81aa3 : ADDED: INSTRUCTOR SIGNUP with Ninja Forms
+* cc7f9922 : ADDED : NINJA FORMS Support
+* eea1622f : FIXED : RTL Bug Fixes
+* 92897adf : FIXED : Course Content duplication bug
+* ed1987ca : FIXED : Grid alignment issues in Archive/Blog/Category pages
+* d0000f07 : FIXED : All Instructors page, number of instructors bug
+* f4ef1264 : Version 1.5.4
+* 7929be25 : UPDATED: Translation files [US,ES,DE,IT,PO]
+* 89ad66c9 : FIXED : Breadcrumbs Course not Translatable
+* f0d52636 : FIXED : RugWarrior Mobile CSS bugs
+* 5ab11eea : FIXED : Home and Course Translation in breadcrumbs
+* 2139f082 : FIXED : RTL Fixes
+* 441525d1 : ADDED : WP Visual Composer
+* 6022d8ec : ADDED : Hook to open Free units in a Popup window
+* 477d9536 : FIXED : Boxed CSS Fixed in Page Builder pages
+* c57c3268 : Updated: WooCommerce Checkout Review order file to latest version
+* d0b7b10c : ADDED : Option for Instructors to Assign Badges & Certificates from Course -> Admin
+* 06906776 : ADDED : Support for Social icons in options panel
+* 84c84dbd : ADDED : Course Categories widget
+* d725d2b2 : ADDED : Social sharing options
+* c850ab50 : FIXED : Course Search Bug
+* f6756b02 : ADDED : Social icons color connected to Theme Customizer Theme color
+* fb537c1c : FIXED : Translation of Create an account title in signup
+* 1b44ae7b : ADDED: Social icons option in footer
+* c05773a9 : ADDED : Social Icons/sharing styling
+* 96be5b71 : FIXED : Course Read more fix for Visual Composer
+* 06110cab : ADDED : Hook for adding custom actions for students in Course Admin
+* 803a0277 : ADDED : Student activity in Course
+* fd6a193a : ADDED : Force All pending orders as complete
+* ea1641c6 : FIXED: UL,OL fixes in BBPress content
+* e37abd29 : FIXED : Threaded replies fix
+* fceba8cb : FIXED : Member -> Settings -> Profile CSS changes
+* d17f8724 : ADDED : Instructor Privacy option
+* d4427898 : FIXED : CSS padding issue in Course Category page
+* 16944380 : ADDED : Instructor Privacy option
+* 59a58caa : FIXED : Layout of Member Settings (General, Email, Profile)
+* 19f4c4b2 : FIXED : Member -> Settings -> Profile fix
+* 45a86aa4 : FIXED:  Added theme color for ajax loader
+* 4d53b777 : FIXED : Custom fonts from Vibe Options panel fix
+* fc968580 : FIXED : Widget Avatar fix in Groups creation
+* 1eed0286 : ADDED : Hook for shown Course curriculum link
+* ffe57d2f : FIXED : Previous answers showing up in Questions in quiz
+* c8751d98 : ADDED : Unit Media Locking feature
+* 738cf4e0 : UPDATED : Course Search file
+* d45d411d : ADDE : Italian translation files
+* d100faee : FIXED : Boxed Layout Theme Customizer Bugs
+* eba95114 : FIXED: Grid layout issue in Members, Blog and Course directory page
+* ce52247f : FIXED : Permalink issue in Blog post titles in blog page
+* 3332cb59 : FIXED : BuddyPress Activity page tabs in Mobile view
+* b290c226 : FIXED : BuddyPress widget in footer avatars
+* b353d105 : FIXED :Breadcrumbs fix
+* c389e294 : FIXED : Instructors unable to Edit Categories
+* 17770eb1 : FIXED : Background image in Certificate Fix
+* 51c068d5 : FIXED : Unlimited access bug
+* 818c8980 : FIXED : Mobile Layout fixes
+* 2fbc9486 : Updated to 1.5.3
+* 467408e7 : UPDATED : Translation files
+* af55f5b8 : FIXED : Customizable Printable custom certificate templates
+* ca278635 : ADDED : Certificate Validation
+* 074fd695 : FIXED : Translation strings in Course Admin
+* cd70175b : FIXED : Contact Form 7 compatibility
+* d8c98d1b : FIXED : RTL Fixes
+* 20395510 : Updated : Boxed Layout files
+* e256a0ad : FIXED : Translation of student, instructor,administrator in members page
+* 17ec94e9 : FIXED : Course Cookie bug
+* 60e4e796 : ADDED : Boxed Layout
+* eeb6938f : FIXED : WooCommerce Checkout Registration Bug
+* 7a1f356a : ADDED : Instructor add students from Course Admin control in options panel
+* 0cbdcbea : FIXED : WP 3.9 Gallery fix
+* 6a9f26ec : ADDED : Assignment Locking
+* bda667d2 : FIXED : Tag cloud colors in Customizer
+* a0182f8e : ADDED : Hook for Adding more Bulk Actions in Course Admin
+* eacb60bf : ADDED : Unit Locking, Options Panel -> Course manger
+* 672e79f1 : FIXED : Pagination Bug in Course Category and Author page
+* 3230c291 : FIXED : Start Course and Proceed to button quiz
+* 114d6194 : FIXED : WP Login panel text color in input box
+* adcc77ab : version 1.5.2
+* df131803 : FIXED : All Course Page from breadcrumbs bug
+* ea5bc169 : FIXED : Pre-Course Bug
+* 51dba6b7 : FIXED : Read More Bug in Course Description. Now detects <!--more--> more quick tag
+* 6eb43fdd : FIXED : FIX Front end login issue
+* 42080678 : FIX : RTL Login Panel CSS issue
+* f61a5e6f : FIXED: Admin panel link in Login panel
+* 828462d9 : Fixed : Badge & Certificate Reset bug
+* 4e111c93 : FIXED : Checkout Coupon inactive Bug
+* ec3ca4e4 : FIXED : Login panel CSS issues
+* 0130503e : Fixed : Fatal Error on page builder WordPress sep hook in some cases
+* 453045b0 : Fix : Read more fix now detects line breaks for adding read more.
+* 1be50e77 : 1.5
+* 20e7b631 : Version 1.5
+* 65112e61 : ADDED : Language files ** incomplete
+* f3dd3887 : FIXED : Aministrator label for Administrator on all members page
+* 89013b0a : Fixed : PHP Warning on Yoast compatibility connect
+* eca1d479 : Fixed : WooCommerce Order table alignment issue
+* a8c9a5bb : FIXED : BuddyPress Widgets running into each other in sidebar
+* 8fc1b8ef : FIXED : Instructor fields issue in All Instructors page
+* 379b362d : UPDATED : Language files updated
+* da532468 : ADDED : Option to reduce Checkout fields on virtual products checkout
+* 0a5d4627 : ADDED : Option to Force Complete order (Options Panel -> Miscellaneous)
+* c4b82427 : Updated : Code Refactored in Quiz
+* ac4582d5 : FIXED : Become an Instructor button in all Members page
+* a99e7343 : FIXED : WP Admin Login panel colors from Theme Customizer
+* 8c20efb0 : UPDATED : Refactored Quiz Retake code
+* 0d26c51e : FIXED : Registration and Mobile CSS Bugs
+* bf839eda : Added: Link to Admin panel in BP Login Widget
+* 3e7db08e : FIXED : BuddyPress Mobile bugs
+* 67ee8295 : Fix: Unit buttons (Next, prev, Mark as complete )in Mobile view
+* 982c3512 : Fix: PMPRO Membership Cancellation , cancels course access.
+* 1072d0b5 : FIXED : Rating Stars issue on Blog Comments
+* baf9627e : UPDATED :  Start Page Code Refactoring
+* db2efbde : FIXED : Drip Feed Course Start page issue.
+* 69525c48 : FIX : Read More breaking lines in Course Description + Refactor
+* 62599816 : ADDED : Navigation Font Family in Customizer
+* 73f6dd11 : FIXED : Total Marks, Marks Obtained Translation fixes
+* 75bac075 : ADDED : Course Progressbar
+* 3d277544 : FIX : Renamed Newly Created to Newly Published
+* f453eb28 : FIXED : SAVE ANSWER/MARKS ANSWER Translation issues
+* 5bc7c632 : Fix : Hook for WPEngine in Login widget
+* c929e4d8 : Fix: Course Translation in Group -> Course link
+* 7ce8c7cb : Fix : Member Profile fields white border below labels
+* 271d5da4 : Fix : After Event hook modification to show Assignments
+* 1b965db5 : Fix : Show comments template in Assignments for Instructor and Admin
+* 2dfd3054 : Updated : Added WPLMS Assignments results in Member -> Course -> Results
+* 2f393022 : Fix : Changing text domain from woocommerce to vibe
+* 62cb9be1 : Fix : All Assignment Answers now visible to Instructor and Administrator
+* 5ce4ea84 : Fix : WooCommerce translations in Translation files
+* 5648a01b : Fix : RTL Fix for star rating and course details
+* 58009ed1 : Fix : Added Assignments CSS in Buddypress.css
+* 4adee1f6 : ADDE :Assignment Submissions
+* 035475e0 : ADDED : WPLMS Assignments
+* 53ce0c9c : Fix: Translation issue in course start page
+* 4aba8094 : Fix : Replacing the Sidebar hook in Course Search page
+* 33e9357e : Fix : Compatibility with Yoast SEO
+* 25227eab : Fix : Customizer fix, PMPRo and assignment controls
+* 47fd0902 : Fix : Vibe Grid CSS fix inside main container
+* 17549a63 : Fix: CSS in cart page
+* 9069fe23 : ADDED : Pagination for Members in Courses
+* ee531077 : Fix : Limiting query to return only latest comment in answers, faster execution
+* 66278973 : FIX :Adding VibeValidate function to Validate yes/no fields
+* 9377ddee : Updated : Change Log
+* 29a56fde : Fix : CSS Fix Terms and Conditions in checkout
+* ce8c22ad : Update: Language Files Updated
+* 19b3f372 : version 1.4.1
+* cc04a5c8 : ADDED : PMPro Templates
+* 6ecfde30 : Fix: Instructor ability to add unfiltered HTML (iFrame Videos in short codes)
+* a9b674fc : Fix : Instructor Specific Field Group , not viewable to students
+* c120d98b : Fix: Reset Answer button styling
+* 2a720a22 : FIX : Profile Elements Colors form Theme Customizer
+* 4f427ea5 : ADDED : Reset Answer Option flush out previously saved answers
+* ff79ef4a : ADDED : Instructor Specific Field group
+* 03f81596 : Fix : Custom Hook in Search Page
+* 3cdc0a1b : Fix : Instructor Button fix in All Instructors page
+* 709b9d86 : FIX : Incorrect next/prev unit calculation (Next Unit or Next Quiz) in Start course page
+* b7c35ff9 : UPDATED : Added Quiz <-> Course Connectivity
+* 57b776fa : ADDED : Redirect user to Course on order completion when Single Course in Product
+* 71d0823a : Fix: Menu and Unit Title extra spacing fix.
+* ab5608d1 : FIX : Customizer Fixes Checkout Button, Mobile Menu, Search icon
+* 3e3a99db : FIX : Commenting out Extra Cookie Test code
+* 3988ef07 : Fix : WooCommerce Payment Page Bug Fix
+* b047c44a : Fix: Coupon box Fix in Checkout
+* 3708e09b : Fix : Translation fixes in Curriculum
+* df9701ae : Added : Custom CSS option in Theme Customizer
+* 57bb1091 : Update : Force Activation false for WooCommerce
+* 9fb81e6c : Remove: Removing Instagram widget
+* aa0b5021 : Fix : Translation Fixes
+* 2fc8bb34 : Fix : Adding a link to get the Latitude and Longitude values easily
+* 1f047de5 : Updated : Google Map Zoom controls
+* d466dd02 : UPDATED : Events Sidebar option in options panel -> sidebar manager
+* a3085aea : Fix : Events color Customizer fix
+* 0b927218 : Version 1.4
+* 97ee14aa : Course Button
+* a361d7ec : Fix : Access units via Curriculum
+* e97737e3 : Fix : Translation text : Courses by Instructor
+* 647c38b6 : FIX : Customizer changes
+* 474e49f4 : UPDATED : Option to removing VibeThemes Credits
+* cd0717e6 : FIX: WooCommerce ThankYou Page Bug Fix
+* 69de6534 : FIXED : Widget/WooCommerce Titles in Theme Customizer
+* 4fed1450 : ADD : Background Image controls in theme Customizer
+* daa69bf6 : UPDATED : Units accessible from Curriculum to Course Instructor and Administrator
+* 293090bb : ADDED Default avatar
+* 46746a0f : FIX : Menu & Sub-Menu Hover colors fix
+* 8b54ba83 : Updated : Added BuddyPress Default avatar controls
+* bc9131c0 : ADD : All Events Archive
+* e2082bda : FIX : Woocommerce checkout bars customizer fix.
+* 85208189 : Fix : Adding Alt tag in logo image in top header
+* 8a3f73e9 : FIX : Customizer Bug Fixes (5)
+* bc0c0109 : UPDATED: Adding a Checkout Sidebar
+* 898ea890 : Moving Event Card to generic Featured function
+* 62839e19 : Events Archive / All Events
+* 9421b39b : Course Events Template
+* 478a456f : Provision for Front end Editor
+* 43968834 : Search Sidebar Fix
+* 3180bb18 : Event Success and Error message css added
+* b09b950d : Full Buttons CSS fix for Events Buttons
+* 35567c9d : BuddyPress messages connect with Customizer
+* 293b46d4 : Single Event
+* 1fcb8ca1 : Single Events connect to the popup
+* ebab950e : Cleanup removing extra spaces
+* cd57aa61 : RTL Fix for Buddypress navigation items
+* 1b0d52d9 : Responses on translation ready in Comments page
+* f12a3548 : Read more translation ready in Category page
+* 4369d935 : Read more translation ready in Blog page
+* 79190b53 : Read more translation ready in archive page
+* 3b5cacae : Fixing All Course Page Title and Sub title
+* d9a00a60 : JS LINT recommendations
+* 7089e765 : Fixing Menu hover issues
+* 4d2cdb5e : Commenting out BBPress fix for localhost setup
+* 04b8f825 : Adding Course Slug Constant instead of course
+* feb80a86 : Parallax Layer Fix in Page Builder
+* ee793411 : Start Course fix , start from last incomplete unit on continue course
+* e155325e : BBPress Widget Titles fix
+* f7dc0d60 : Adding Change Log
+* 82fc4582 : Updating Layerslider Version
+* 23b4bda0 : Language Files updated
+* 7134f25a : v 1.3.4
+* 3c67dafe : Dynamic sidebar bug fix in Blog page
+* 16b1047b : Recording Activity Meta for Instructor Stats
+* e68bba9e : Removing the margin between units
+* a938a871 : Start Course page bug fix
+* 5061d1f0 : BuddyPress Activity in profile css fix
+* 5ab59cf0 : Sort options auto evaluate fix
+* 853d0271 : Auto Evaluate Quiz Options
+* 90821917 : Sort Answer styling
+* b624c9bf : Course Category added in Menu
+* 3aa0e455 : Checkbox css issue fix for buddy press
+* 6c9a89eb : Profile data bug fix in Quiz & Course Submissions
+* 2d896684 : BuddyPress CSS Fix for activity header
+* c9f11425 : Opacity fix for Menu items
+* 4500f490 : Theme Customizer Color fix for current menu item
+* 37dfc3d6 : Adding Theme Support
+* ca71718b : Groups Button Link
+* 247b889a : Testimonial default image fix
+* 5979e42c : Import/Export page builder fix.
+* 831df82e : Activation Redirect page
+* 8269d899 : Starting with Events
+* bac8c959 : Single Events Template
+* 7800e835 : Events Template connect
+* b7b57029 : Align right fix
+* 014dfbd6 : Certificate Styling, BBPress Reply Fix,
+* b0059103 : BuddyPress single Activity fix
+* 1aba97ff : BBPress styling fixes
+* 812f59e3 : Added Menu filters
+* adcbf2e4 : Additional color options for buddy press item tabs via Customizer
+* 713a09f7 : Lost password page fix
+* 592b31cc : Language fixes , Signup in header
+* d6058e43 : Updated layer slider
+* 9550ef5b : Updated certificate template
+* bef6c579 : Back to Course Fix from Free Units
+* 09bbc58b : Version update to 1.3.3
+* 892286d8 : Hooks for front course description
+* 9179f6ac : Updated Language files
+* e4d3c2f4 : Action hook to print results
+* 7127ad50 : Quiz Retake
+* 04360fb0 : Fixed the Logged in menu in activity
+* 1d45ede9 : Login cookie fix
+* e5bc686a : Fixed notice
+* 6071bd7f : Course Search template fix
+* a6df55d4 : RTL Select fix
+* 13490e1d : Customizer controls for changing Menu
+* f00a97a7 : Search Widget Fix
+* fc65c568 : BuddyPress Profile activity fix
+* 313373b9 : Breaking the excerpt at the end of a word fix
+* 5b3c56da : become and Instructor button fix
+* 879524db : Mobile rtl fix
+* 14b7ca5a : The Instructor Button hook
+* ad19c2c6 : Customizer fixes
+*   9e1d7e72 : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| *   57b27777 : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+| |\  
+* | \   92bdee9a : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\ \ \  
+| |/ /  
+|/| /   
+| |/    
+| * 8ba0fbaf : version 1.3.2
+* | 4872c7f8 : version 1.3.2
+|/  
+*   cfc6328e : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * d85c1ebd : 1.3.1
+* | 9b66fc07 : Customizer Fixes
+* | 8f5c265e : Navigation Search
+* | 742466cf : Certificate Generator
+* | 81502635 : 1.3.1
+|/  
+* 21230eba : CSS Fixes
+* 55f08591 : Questions answers showing in Comments
+* 725d79f0 : Direct Access to Questions not allowed
+*   908900aa : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * 8a42d126 : Learndash Compatibility
+* | ab95d601 : Advanced Course Search
+* | 457e5bcd : Learndash Compatibility
+|/  
+* db5c60d9 : Advanced Certificates
+* db4b579d : RTL Fix
+* f82e8fc1 : Course Review Button Fix
+* 47f3a590 : Rtl fixes
+* d8b969f4 : Certificate Hooks for customization
+* 1b465105 : Read More fix in Mozilla firefox
+*   a06e50ae : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * e84599d6 : Version 1.3
+* | ddf30abf : Version 1.3
+|/  
+* 21c3f574 : iPhone WooCommerce CSS Fixes
+* d87a5e70 : Fixed Course Stats Bug
+* bf03c153 : Course Auto Evaluation & Start Page Bug
+* 77713f6d : CSS Fix, Login panel hiding below Google map
+* 00548389 : CSS Bug fix, Menu hiding below checkout steps
+* 54c41e57 : Vibe Direct Checkout
+* 0edc840a : Provision to control read more content limit in single courses
+* 19252385 : no change
+* 6d9b4ddd : Header Logo Size add on in Customizer
+* b3ba0377 : 1.2.2
+* d19517d5 : version 1.2.1
+* 47f0ae46 : Next Page quick tags in Unit
+* 4ce57e50 : Quicktags multi page support for free units
+* bf8af926 : Mail short code and formatting issues
+* f369d403 : Language Changes II
+* 5c786d45 : Language specific Changes
+* 9d9194ec : Theme Customizer Fix
+* e095543c : Thank you page fix
+* 5afe2970 : 404 permalink bug
+*   ae921459 : Merge branch 'wplms' of https://bitbucket.org/vibethemes/wplms
+|\  
+| * d2539df8 : version 1.2
+* | 1b175002 : version 1.2
+|/  
+* 5d9ede71 : quiz 0 revert
+* 48f03952 : Print button in units
+* 8c010654 : RTL and CSS Fixes
+* d0a81ca5 : RTL Fix
+* ed7fd581 : Course Navigation Filter
+* 6f85b6e9 : woocommerce direct checkout
+* a2cfc666 : Activity tracking and Course Activity addition
+* 3177ed3a : Provision for Instructor Courses
+* 825f3654 : Adding hook bp_before_directory_course
+* 83ee89b5 : 1.1 version
+* a228a79d : Google Microdata
+* 53d6d127 : no change
+* 77f857d4 : email message fix
+* 4cb3c6ab : styling changes
+* d9205d05 : WooCommerce Order Received fix
+* 9c6174d6 : BBPress pagination fix
+* 636d1e09 : Adding Course Link in groups
+* 85bffc57 : Customizer Bug
+* a91c5212 : WooCommerce Changes
+* b6a059f8 : Fixes
+* 1d4febe6 : Language and Activity
+* a71fec9c : Security Fixes, Adding Prepare in SQL Queries
+* 4f97a608 : WooCommerce Fix
+* b217c065 : Fixing Theme Check
+* 65db07b8 : Recording Activity
+* 79bdfb04 : Kailoon Bug Fixes
+* f7e49d67 : Added Plugins & doc link
+* 4956c03d : iVor fixes 3
+* 6d11a107 : Woocommerce add in Required plugins
+* 2139e300 : Kailoon final fixes
+* 580677cc : Kailoon/Ivor Fixes
+* a454d5e6 : Various bug fixes
+* e5ea3303 : Fix for Ratings & Reviews in Course block
+* 54655329 : Bug Fixes Round 1
+* 44556207 : Fixes Quiz, certificates
+* 5b7305f1 : finalizing status
+* ba75a533 : Finalizing bugs
+* 33103746 : bug fixes
+* 7ba1c560 : final fixes
+* 622afd21 : Several fixes and instructor page
+* abdcadbc : Fixes for Demo
+* 17f0fef4 : Dynamic Instructor and Student Field fix
+* 1a156f0d : Loop number fix in Members
+* 26ea8475 : Activity Fixes
+* b2d052f5 : Final fixes with Theme check
+* 5a340225 : Questions & quiz
+* 19190db2 : Finalizing version for demo
+* 936ae363 : Contact page and confirm
+* f1638281 : Optiona Panel Connect -> Footer & Header
+* 4a8d2685 : Header Fix, Ajax Fixes
+* 67e31732 : Certificate & Badges
+* 385bdc66 : Badges & Certifications complete
+* 7c90c77c : Privacy Connect with Options Panel
+* 55063204 : Finishing and Syncing
+* f52ab460 : Woocommerce Advanced Widgets tested
+* e8fc377d : Finishing course
+* f18b6342 : Fixes
+* 40770be0 : Pagebuilder and Shortcode generator integration
+* 54cb39bc : Pagebuilder init
+* c0655320 : Course Stats, User Stats finished
+* e8886e51 : Working on Course details
+* dba9f8b2 : WooCommerce Subscription Working
+* 65e62f5f : Single Product Purchase
+* 462f08d9 : WooCommerce Subscription complete
+* 0850ba31 : Checkout Start
+* 19078b33 : WooCommerce begining
+* ed7d841b : Single Woo Commerce and CSS fixes
+* eef950fd : Course Stats, Member Stats, WooCommerce Subscription
+* 2a47029b : Quiz Check complete
+* e8a8becb : Quiz panel in Course Admin
+* 6e930a42 : Quiz in Members panel
+* 50b7c45f : Cookie fix for Course
+* 3dd668ec : Reload Course
+* 1bc9f17f : Course Traverse Complete
+* 8831b3a5 : Course working
+* 2be47440 : Course Begin
+* 45647b6e : Finishing Quiz Front end
+* 2b69cf04 : Finishing Quiz
+* 64a20c34 : Working Draft of Quiz
+* 3e723751 : Starting with Ajax Quiz development
+* 572aa096 : Quiz
+* 181362d3 : Starting Quiz
+* 7785f6fc : Adding Single Question
+* 8ab70a3f : Single Question
+* 8e382b23 : Course Curriculum
+* be44d3ed : Adding notifications form bp1.9.1
+* 0b6ddf81 : Finishing single
+* 07ebbb48 : Working Single Course
+* 72c92f21 : Navigation on archive and member working
+* df5303b7 : Course Archives
+* f12c4048 : Tried and failed setting up globals for BP Component
+* 97e547ff : Testing Course component
+* e3bd9c4b : Single course
+* c6e756b7 : All course
+* f3738c59 : Course in Members
+* 589e37a8 : Adding course loop
+* a5babea8 : Finishing Course Archive
+* 805eb7b8 : Starting with Course Module
+* 074fea37 : Activity Finish
+* 096650c1 : Removing Load more and Adding Pagination in activity
+* ded1c209 : Updating CSS and Screens
+* a7c1e374 : CSS and All gouts Page
+* a3a45b51 : Base
+* c76b82ea : Adding Quiz form
+*   d355dcdb : Merge branch 'refs/heads/coursestructure'
+|\  
+| * e15a0668 : Starting off with Quiz Module
+| * 9de6300a : Limiting Activity count
+| * cee02c1f : Course Structure display
+|/  
+* ec6e046e : Trying Module Sort the WP Way
+* c3d4c8af : Initiating Modules
+* 4f0ecbac : Courses complete
+* 7c4f9649 : Adding Buttons for Sections / Units
+* f75ba43b : Course Creation form Front end
+* 2d4ed8b3 : Front end submission
+* c1390f29 : Restyling Buddypress and Core
+* 87937dc8 : Custom Nav function for Course
+* ce28eacb : Profile Nav items
+* ab657ad1 : Starting with options panel
+* 1e9887b4 : ajaxfix for buddypress
+* 686ade9e : Menu correction
+* ae7bcbcb : Groups and All members
+* 6d549104 : Single Notifications
+* 8fba5a47 : BuddyPress Profile
+* 42f79321 : Login and Including Buddypress templates
+* 6d6f833f : Finishing Profile
+* 49fe600b : Adding the Login widget
+* b352e5a8 : Integrating plugins
+* 6a39b664 : adding js/css for CPT
+* 249a1099 : Widgets
+* 2f2efabf : single,page,blog,category,tag,archive,search
+* b9cc040b : Header & Footer
+* c21027f6 : Starting off WP Development
+* 5ddc7c89 : starting header
+* 4bec755e : HTML init
